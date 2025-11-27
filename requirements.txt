@@ -1,0 +1,8 @@
+flask
+beautifulsoup4
+requests
+lxml
+fake-useragent
+undetected-chromedriver
+selenium
+pandas

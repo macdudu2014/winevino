@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WineVino</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Wine<span class="accent">Vino</span></h1>
+            <div class="header-actions">
+                <button id="refresh-btn" aria-label="Refresh Data"><i class="fas fa-sync-alt"></i></button>
+                <button id="settings-btn" aria-label="Settings"><i class="fas fa-cog"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Search wines...">
+            </div>
+            <div class="sort-options">
+                <button id="sort-trigger-btn" class="sort-trigger-btn">
+                    <span id="current-sort-label">Vivino Score</span>
+                    <i class="fas fa-sort-amount-down"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Store Tabs -->
+        <div class="store-tabs">
+            <button class="store-tab active" data-store="all">All Stores</button>
+            <button class="store-tab" data-store="carrefour">Carrefour</button>
+            <button class="store-tab" data-store="albert heijn">Albert Heijn</button>
+        </div>
+
+        <!-- Wine Type Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All Types</button>
+            <button class="filter-btn" data-filter="Red">🍷 Red</button>
+            <button class="filter-btn" data-filter="White">🥂 White</button>
+            <button class="filter-btn" data-filter="Rosé">🌸 Rosé</button>
+            <button class="filter-btn" data-filter="Sparkling">🍾 Sparkling</button>
+            <button class="filter-btn" data-filter="Other">🍹 Other</button>
+        </div>
+
+        <!-- Food Pairing Filters -->
+        <div class="pairing-filters">
+            <label class="pairing-filter-label">Pair with:</label>
+            <button class="pairing-filter-btn" data-pairing="Red meat">🥩 Red meat</button>
+            <button class="pairing-filter-btn" data-pairing="White meat">🍗 White meat</button>
+            <button class="pairing-filter-btn" data-pairing="Seafood">🦞 Seafood</button>
+            <button class="pairing-filter-btn" data-pairing="Fish">🐟 Fish</button>
+            <button class="pairing-filter-btn" data-pairing="Dessert">🍰 Dessert</button>
+        </div>
+
+        <div id="wine-list" class="wine-grid">
+            <!-- Wines will be injected here -->
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Fetching best wines...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content settings-modal-content">
+            <span class="close-settings">&times;</span>
+            <h2>Settings</h2>
+
+            <div class="settings-section">
+                <h3>Data Management</h3>
+                <p class="settings-desc">Manage your personal data stored on this device.</p>
+
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <span class="setting-label">Personal Ratings</span>
+                        <span class="setting-sub">Reset all your star ratings</span>
+                    </div>
+                    <button id="reset-ratings-btn" class="danger-btn">
+                        <span>Reset Ratings</span>
+                        <i class="fas fa-star-half-alt"></i>
+                    </button>
+                </div>
+
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <span class="setting-label">Notes & Pairings</span>
+                        <span class="setting-sub">Reset all your notes and food pairings</span>
+                    </div>
+                    <button id="reset-notes-btn" class="danger-btn">
+                        <span>Reset Notes</span>
+                        <i class="fas fa-sticky-note"></i>
+                    </button>
+                </div>
+
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <span class="setting-label">Factory Reset</span>
+                        <span class="setting-sub">Clear all local data and settings</span>
+                    </div>
+                    <button id="factory-reset-btn" class="danger-btn">
+                        <span>Factory Reset</span>
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="settings-message" class="settings-message hidden"></div>
+        </div>
+    </div>
+
+    <!-- Sort Modal -->
+    <div id="sortModal" class="modal">
+        <div class="modal-content sort-modal-content">
+            <span class="close-sort">&times;</span>
+            <h2>Sort Wines</h2>
+            <div class="sort-list">
+                <button class="sort-option active" data-value="score">
+                    <i class="fas fa-star"></i> Vivino Score
+                </button>
+                <button class="sort-option" data-value="personal-score">
+                    <i class="fas fa-heart"></i> Personal Score
+                </button>
+                <button class="sort-option" data-value="price-low">
+                    <i class="fas fa-arrow-down"></i> Price: Low to High
+                </button>
+                <button class="sort-option" data-value="price-high">
+                    <i class="fas fa-arrow-up"></i> Price: High to Low
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v=6"></script>
+</body>
+
+</html>

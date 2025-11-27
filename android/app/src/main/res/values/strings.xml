@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">WineVino</string>
+    <string name="title_activity_main">WineVino</string>
+    <string name="package_name">com.winevino.app</string>
+    <string name="custom_url_scheme">com.winevino.app</string>
+</resources>

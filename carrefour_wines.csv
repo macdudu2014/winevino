@@ -1,0 +1,545 @@
+name,price,url,image_url,type,size,vivino_score
+Maison Castel Merlot Rosé 75cl,6.99,https://www.carrefour.be/fr/maison-castel-merlot-rose-75cl/06165646.html,https://cdn.carrefour.eu/420_06165646_T1.webp,Red,75cl,3.4
+Pays d'Oc La Chardonnaise Chardonnay Blanc 75cl,7.99,https://www.carrefour.be/fr/pays-doc-la-chardonnaise-chardonnay-blanc-75cl/07214151.html,https://cdn.carrefour.eu/420_07214151_M19_20250217.webp,White,75cl,3.8
+Southern River Special Edition Chardonnay Blanc 75cl,6.49,https://www.carrefour.be/fr/southern-river-special-edition-chardonnay-blanc-75cl/05985095.html,https://cdn.carrefour.eu/420_05985095_T01.webp,White,75cl,3.6
+La Cave d'Augustin Florent Languedoc rosé 3 L,13.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-languedoc-rose-3-l/05089872.html,https://cdn.carrefour.eu/420_05089872_T1.webp,Rosé,Box,3.3
+Stony Cape Chenin Blanc 3 L,16.99,https://www.carrefour.be/fr/stony-cape-chenin-blanc-3-l/01702189.html,https://cdn.carrefour.eu/420_01702189_T1.webp,White,Box,3.6
+Gran Reserva Enterizo Rouge 75cl,8.99,https://www.carrefour.be/fr/gran-reserva-enterizo-rouge-75cl/06985683.html,https://cdn.carrefour.eu/420_06985683_M1_20231005.webp,Red,75cl,3.5
+Classic Jacob's Creek Chardonnay Blanc 75cl,8.49,https://www.carrefour.be/fr/classic-jacobs-creek-chardonnay-blanc-75cl/01096515.html,https://cdn.carrefour.eu/420_01096515_JC%20Chardonnay_MPM.webp,White,75cl,3.4
+Beaumanoir Vin de rosé 5 litres,16.99,https://www.carrefour.be/fr/beaumanoir-vin-de-rose-5-litres/04785857.html,https://cdn.carrefour.eu/420_04785857_T1.webp,Rosé,Other,3.7
+Vin Blanc sec 3 L,10.99,https://www.carrefour.be/fr/vin-blanc-sec-3-l/04363281.html,https://cdn.carrefour.eu/420_04363281_T1.webp,White,Box,
+Les Vignerons des Domaines Vinsmoselle Rivaner Blanc 3L,14.99,https://www.carrefour.be/fr/les-vignerons-des-domaines-vinsmoselle-rivaner-blanc-3l/01286637.html,https://cdn.carrefour.eu/420_01286637_T1.webp,White,Box,3.7
+Estandon Vignerons Terres de Saint-Louis Rosé 75cl,10.99,https://www.carrefour.be/fr/estandon-vignerons-terres-de-saint-louis-rose-75cl/01631987.html,https://cdn.carrefour.eu/420_01631987_T1.webp,Rosé,75cl,
+Amicale Rouge 75cl,9.99,https://www.carrefour.be/fr/amicale-rouge-75cl/05345351.html,https://cdn.carrefour.eu/420_05345351_T1.webp,Red,75cl,
+Terre di Chieti Tombacco Pecorino Blanc 75cl,9.99,https://www.carrefour.be/fr/terre-di-chieti-tombacco-pecorino-blanc-75cl/06918157.html,https://cdn.carrefour.eu/420_06918157_main_20221214_01_PM.webp,White,75cl,3.9
+L'Héritage de Carillan Cabernet Sauvignon Rouge 5 L,20.49,https://www.carrefour.be/fr/lheritage-de-carillan-cabernet-sauvignon-rouge-5-l/05650226.html,https://cdn.carrefour.eu/420_05650226_T1.webp,Red,Other,3.2
+Galatheo Rosato Italia 3 L,9.99,https://www.carrefour.be/fr/galatheo-rosato-italia-3-l/06216742.html,https://cdn.carrefour.eu/420_06216742_T1.webp,Rosé,Box,3.9
+Moselle Domaines Vinsmoselle Rivaner Blanc 75cl,4.99,https://www.carrefour.be/fr/moselle-domaines-vinsmoselle-rivaner-blanc-75cl/00162766.html,https://cdn.carrefour.eu/420_00162766_T1.webp,White,75cl,3.5
+L'Héritage de Carillan Chardonnay blanc 3 L,15.99,https://www.carrefour.be/fr/lheritage-de-carillan-chardonnay-blanc-3-l/04942302.html,https://cdn.carrefour.eu/420_04942302_T1.webp,White,Box,3.3
+Galatheo Bianco Italia 3 L,9.99,https://www.carrefour.be/fr/galatheo-bianco-italia-3-l/06216743.html,https://cdn.carrefour.eu/420_06216743_T1.webp,White,Box,3.0
+Marqués de Cáceres Rioja Crianza Rouge 75cl,9.99,https://www.carrefour.be/fr/marques-de-caceres-rioja-crianza-rouge-75cl/00163790.html,https://cdn.carrefour.eu/420_00163790_T1.webp,Red,75cl,3.7
+Tombacco Aglianico del Beneventano Rouge 75cl,9.99,https://www.carrefour.be/fr/tombacco-aglianico-del-beneventano-rouge-75cl/06098273.html,https://cdn.carrefour.eu/420_06098273.webp,Red,75cl,4.0
+Loire Caves D'augustin Florent Cabernet D' Anjou Rosé,17.99,https://www.carrefour.be/fr/loire-caves-daugustin-florent-cabernet-d-anjou-rose/05089500.html,https://cdn.carrefour.eu/420_05089500_T1.webp,Red,Other,3.8
+Castilla-La-Mancha Mucho Mas Rouge 75cl,5.99,https://www.carrefour.be/fr/castilla-la-mancha-mucho-mas-rouge-75cl/06461970.html,https://cdn.carrefour.eu/420_06461970.webp,Red,75cl,3.6
+Stony Cape Syrah Rosé 75cl,6.49,https://www.carrefour.be/fr/stony-cape-syrah-rose-75cl/04382832.html,https://cdn.carrefour.eu/420_04382832_T1.webp,Red,75cl,3.1
+Amicale Blanc 75cl,9.99,https://www.carrefour.be/fr/amicale-blanc-75cl/05740513.html,https://cdn.carrefour.eu/420_05740513_T1.webp,White,75cl,3.9
+L' Aiguebrun le Pont de la Coquille Luberon Blanc 75cl,5.99,https://www.carrefour.be/fr/l-aiguebrun-le-pont-de-la-coquille-luberon-blanc-75cl/06032763.html,https://cdn.carrefour.eu/420_16438692_main_avant_BP.webp,White,75cl,
+Casa Solis Chardonnay Blanc 75cl,6.99,https://www.carrefour.be/fr/casa-solis-chardonnay-blanc-75cl/07247617.html,https://cdn.carrefour.eu/420_07247617_M1_20250514.webp,White,75cl,3.7
+Grand Vin de Bordeaux Château Gandoy Perrinat Rouge 75cl,7.99,https://www.carrefour.be/fr/grand-vin-de-bordeaux-chateau-gandoy-perrinat-rouge-75cl/05471666.html,https://cdn.carrefour.eu/420_21434221_main_avant_BP.webp,Red,75cl,3.5
+Salice Salento Nostre Terre Rouge 75cl,7.99,https://www.carrefour.be/fr/salice-salento-nostre-terre-rouge-75cl/06980401.html,https://cdn.carrefour.eu/420_06980401_M1_20230609.webp,Red,75cl,3.7
+Vin Rosé Moelleux 75 cl,3.49,https://www.carrefour.be/fr/vin-rose-moelleux-75-cl/00162292.html,https://cdn.carrefour.eu/420_00162292_T1.webp,Rosé,75cl,3.5
+Casa Solis Carmenere Rouge 75cl,6.99,https://www.carrefour.be/fr/casa-solis-carmenere-rouge-75cl/07247649.html,https://cdn.carrefour.eu/420_07247649_M1_20250514.webp,Red,75cl,3.8
+Bordeaux Château Holden A.O.C Rouge 75cl,9.99,https://www.carrefour.be/fr/bordeaux-chateau-holden-a.o.c-rouge-75cl/07247407.html,https://cdn.carrefour.eu/420_07247407_M1_20250610.webp,Red,75cl,3.4
+Viñas del Lastra Cariñena Gran Reserva Rouge 75cl,6.99,https://www.carrefour.be/fr/vi%C3%B1as-del-lastra-cari%C3%B1ena-gran-reserva-rouge-75cl/07247435.html,https://cdn.carrefour.eu/420_07247435_M1_20250514.webp,Red,75cl,3.6
+Stony Cape Pinotage Cabernet Sauvignon Rouge 75cl,6.49,https://www.carrefour.be/fr/stony-cape-pinotage-cabernet-sauvignon-rouge-75cl/05778637.html,https://cdn.carrefour.eu/420_05778637_T1.webp,Red,75cl,3.0
+Alsace Tête à Tête Pinot Gris et Riesling Blanc 75cl,8.99,https://www.carrefour.be/fr/alsace-tete-a-tete-pinot-gris-et-riesling-blanc-75cl/04953161.html,https://cdn.carrefour.eu/420_04953161_M1_20210625.webp,White,75cl,3.7
+Vins de Bag in Box Délices du Terroir Blanc 3L,9.99,https://www.carrefour.be/fr/vins-de-bag-in-box-delices-du-terroir-blanc-3l/07032647.html,https://cdn.carrefour.eu/420_07032647_main_20231114_01_PM.webp,White,Box,4.1
+Tejo Babu Reserva Rouge 75cl,4.99,https://www.carrefour.be/fr/tejo-babu-reserva-rouge-75cl/06169226.html,https://cdn.carrefour.eu/420_06169226.webp,Red,75cl,3.6
+Castilla-La-Mancha Mucho Mas Blanc 75cl,5.99,https://www.carrefour.be/fr/castilla-la-mancha-mucho-mas-blanc-75cl/06461968.html,https://cdn.carrefour.eu/420_06461968.webp,White,75cl,3.4
+Entrecôte Père & Fils Merlot Cabernet Sauvignon Rouge 75cl,6.99,https://www.carrefour.be/fr/entrecote-pere-and-fils-merlot-cabernet-sauvignon-rouge-75cl/05743747.html,https://cdn.carrefour.eu/420_05743747_T1.webp,Red,75cl,3.2
+Bordeaux Château Gandoy Perrinat Blanc 75cl,7.99,https://www.carrefour.be/fr/bordeaux-chateau-gandoy-perrinat-blanc-75cl/06579201.html,https://cdn.carrefour.eu/420_06579201_M1_20230320.webp,White,75cl,3.5
+Grappe d'Or Vin Blanc Sec 37.5 cl,1.99,https://www.carrefour.be/fr/grappe-dor-vin-blanc-sec-37.5-cl/05654585.html,https://cdn.carrefour.eu/420_05654585_T1.webp,White,Other,1.9
+Chablis Mathilde Lafleur Blanc 75cl,12.99,https://www.carrefour.be/fr/chablis-mathilde-lafleur-blanc-75cl/07071212.html,https://cdn.carrefour.eu/420_07071212_main_20240415_02_PM.webp,White,75cl,3.9
+Memŏro Vino Rosso d'Italia Rouge 75 cl,7.99,https://www.carrefour.be/fr/mem%C5%8Fro-vino-rosso-ditalia-rouge-75-cl/05106088.html,https://cdn.carrefour.eu/420_05106088_T1.webp,Red,75cl,3.8
+La Villageoise Vin blanc sec 25 cl,1.79,https://www.carrefour.be/fr/la-villageoise-vin-blanc-sec-25-cl/04941497.html,https://cdn.carrefour.eu/420_04941497_T1.webp,White,25cl,
+Galatheo Rosso Italia 3 L,9.99,https://www.carrefour.be/fr/galatheo-rosso-italia-3-l/06216744.html,https://cdn.carrefour.eu/420_06216744_T1.webp,Red,Box,4.1
+Frankrijk Bordeaux Les Cinq Pattes vin Blanc,6.99,https://www.carrefour.be/fr/frankrijk-bordeaux-les-cinq-pattes-vin-blanc/06965287.html,https://cdn.carrefour.eu/420_06965287_main_20230322_01_PM.webp,White,Other,3.5
+Bordeaux Les Cinq Pattes Rouge 75cl,6.99,https://www.carrefour.be/fr/bordeaux-les-cinq-pattes-rouge-75cl/06965299.html,https://cdn.carrefour.eu/420_06965299_main_20230322_01_PM.webp,Red,75cl,3.3
+Piccini Toscana Collezione Privata Rouge 75cl,8.99,https://www.carrefour.be/fr/piccini-toscana-collezione-privata-rouge-75cl/07109180.html,https://cdn.carrefour.eu/420_07109180_20240704_01_PM.webp,Red,75cl,4.0
+Ecaillemer vin blanc sec de la communaute europeenne Wit 75 cl,3.29,https://www.carrefour.be/fr/ecaillemer-vin-blanc-sec-de-la-communaute-europeenne-wit-75-cl/04789444.html,https://cdn.carrefour.eu/420_04789444_T1.webp,White,75cl,
+Toscane Chianti Piccini Rouge 75cl,5.99,https://www.carrefour.be/fr/toscane-chianti-piccini-rouge-75cl/00163738.html,https://cdn.carrefour.eu/420_00163738_T1.webp,Red,75cl,3.7
+Bordeaux Caves D'augustin Florent Rouge Bag in Box 3L,14.99,https://www.carrefour.be/fr/bordeaux-caves-daugustin-florent-rouge-bag-in-box-3l/04827942.html,https://cdn.carrefour.eu/420_04827942_T1.webp,Red,Box,3.6
+Vins de France Bag in Box Délices du Terroir rosé 3L,9.99,https://www.carrefour.be/fr/vins-de-france-bag-in-box-delices-du-terroir-rose-3l/07032646.html,https://cdn.carrefour.eu/420_07032646_main_20231114_01_PM.webp,Rosé,Box,2.8
+Sicile Le Morre Nero D'avola Rouge 75cl,3.99,https://www.carrefour.be/fr/sicile-le-morre-nero-davola-rouge-75cl/06961235.html,https://cdn.carrefour.eu/420_06961235_M1_20230403.webp,Red,75cl,3.0
+Vins de France Bag in Box Délices du Terroir rouge 3L,9.99,https://www.carrefour.be/fr/vins-de-france-bag-in-box-delices-du-terroir-rouge-3l/07032651.html,https://cdn.carrefour.eu/420_07032651_main_20231114_01_PM.webp,Red,Box,3.4
+Quay Landing Chardonnay 75cl,4.99,https://www.carrefour.be/fr/quay-landing-chardonnay-75cl/04031366.html,https://cdn.carrefour.eu/420_04031366_T1.webp,White,75cl,3.2
+Chardonnay 3 L,13.99,https://www.carrefour.be/fr/chardonnay-3-l/06545962.html,https://cdn.carrefour.eu/420_06545962_T1.webp,White,Box,3.8
+Piemonte Barolo Boschi dei Signori Rouge 75cl,17.99,https://www.carrefour.be/fr/piemonte-barolo-boschi-dei-signori-rouge-75cl/06444838.html,https://cdn.carrefour.eu/420_06444838.webp,Red,75cl,3.9
+Bordeaux Château Gandoy Perrinat Rosé 75cl,7.99,https://www.carrefour.be/fr/bordeaux-chateau-gandoy-perrinat-rose-75cl/06579258.html,https://cdn.carrefour.eu/420_06579258_M1_20230320.webp,Rosé,75cl,3.9
+Piccini Memŏro Blanc 75cl,7.99,https://www.carrefour.be/fr/piccini-mem%C5%8Fro-blanc-75cl/05443329.html,https://cdn.carrefour.eu/420_05443329_T1.webp,White,75cl,3.8
+Santa Rita 120 Reserva Especial Cabernet Sauvignon Rouge 75cl,6.99,https://www.carrefour.be/fr/santa-rita-120-reserva-especial-cabernet-sauvignon-rouge-75cl/01334078.html,https://cdn.carrefour.eu/420_01334078_T1.webp,Red,75cl,3.3
+Puglia Castello di Severino Rouge 75cl,5.99,https://www.carrefour.be/fr/puglia-castello-di-severino-rouge-75cl/05869832.html,https://cdn.carrefour.eu/420_05869832_T1.webp,Red,75cl,3.5
+J.P. Chenet Cabernet-Syrah 3 L,17.49,https://www.carrefour.be/fr/j.p.-chenet-cabernet-syrah-3-l/04838401.html,https://cdn.carrefour.eu/420_04838401_T1.webp,Red,Box,
+Loire Sancerre Castel Blanc 75cl,16.99,https://www.carrefour.be/fr/loire-sancerre-castel-blanc-75cl/06460492.html,https://cdn.carrefour.eu/420_06460492.webp,White,75cl,3.8
+Vin de Pays d'oc Lalande Cabernet Sauvignon Rouge 75cl,4.99,https://www.carrefour.be/fr/vin-de-pays-doc-lalande-cabernet-sauvignon-rouge-75cl/05289254.html,https://cdn.carrefour.eu/420_05289254_M1_20230404.webp,Red,75cl,3.2
+Spanje Vega la Luna Verdejo 750 ml,3.99,https://www.carrefour.be/fr/spanje-vega-la-luna-verdejo-750-ml/06191850.html,https://cdn.carrefour.eu/420_06191850_T1.webp,White,Other,3.8
+Vin de Pays d'oc Lalande Merlot Rouge 75cl,4.99,https://www.carrefour.be/fr/vin-de-pays-doc-lalande-merlot-rouge-75cl/05290836.html,https://cdn.carrefour.eu/420_05290836_M1_20230605.webp,Red,75cl,3.4
+Les Bouvreuils Côtes du Rhône Rouge 75 cl,3.99,https://www.carrefour.be/fr/les-bouvreuils-cotes-du-rhone-rouge-75-cl/00161578.html,https://cdn.carrefour.eu/420_00161578_T1.webp,Red,75cl,3.4
+Bordeaux Supérieur La Cave d'Augustin Florent Rouge 75cl,4.99,https://www.carrefour.be/fr/bordeaux-superieur-la-cave-daugustin-florent-rouge-75cl/05728330.html,https://cdn.carrefour.eu/420_05728330_M1_20230320.webp,Red,75cl,3.6
+Alsace Famille Cattin Pinot Duo Gris & Blanc 75cl,7.99,https://www.carrefour.be/fr/alsace-famille-cattin-pinot-duo-gris-and-blanc-75cl/06233010.html,https://cdn.carrefour.eu/420_06233010.webp,White,75cl,3.8
+Vin de Pays d'oc Domaine Lalande Rosé 75cl,4.99,https://www.carrefour.be/fr/vin-de-pays-doc-domaine-lalande-rose-75cl/05649689.html,https://cdn.carrefour.eu/420_05649689.webp,Rosé,75cl,3.6
+Vin de Pays d'oc Domaine Lalande Sauvignon Blanc 75cl,4.99,https://www.carrefour.be/fr/vin-de-pays-doc-domaine-lalande-sauvignon-blanc-75cl/05649688.html,https://cdn.carrefour.eu/420_05649688_M1_20231010.webp,White,75cl,
+Lambrusco Signoria Dei Duchi Rosé 75cl,2.99,https://www.carrefour.be/fr/lambrusco-signoria-dei-duchi-rose-75cl/06995513.html,https://cdn.carrefour.eu/420_06995513_M1_20231226.webp,Rosé,75cl,3.8
+Bordeaux Les Cinq Pattes rosé,6.99,https://www.carrefour.be/fr/bordeaux-les-cinq-pattes-rose/06965301.html,https://cdn.carrefour.eu/420_06965301_M1_20230417.webp,Rosé,Other,
+La Cave d'Augustin Florent Côtes du Rhône Rouge 75cl,4.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-cotes-du-rhone-rouge-75cl/01651657.html,https://cdn.carrefour.eu/420_01651657_T1.webp,Red,75cl,3.4
+Côtes du Rhône Vacqueyras Terroir Daronton Rouge 75cl,11.49,https://www.carrefour.be/fr/cotes-du-rhone-vacqueyras-terroir-daronton-rouge-75cl/06284454.html,https://cdn.carrefour.eu/420_06284454.webp,Red,75cl,3.7
+Pouilles Castelli di Severino Trebbiano Falanghina Blanc 75cl,5.99,https://www.carrefour.be/fr/pouilles-castelli-di-severino-trebbiano-falanghina-blanc-75cl/05869834.html,https://cdn.carrefour.eu/420_05869834_T1.webp,White,75cl,3.4
+J.P. Chenet Colombard-Sauvignon Blanc 25cl,2.49,https://www.carrefour.be/fr/j.p.-chenet-colombard-sauvignon-blanc-25cl/01507137.html,https://cdn.carrefour.eu/420_01507137_T1.webp,White,25cl,3.5
+Alsace Gewurztraminer Jean Murbach Blanc 75cl,8.99,https://www.carrefour.be/fr/alsace-gewurztraminer-jean-murbach-blanc-75cl/06210077.html,https://cdn.carrefour.eu/420_06210077.webp,White,75cl,3.8
+Portico Rosé Wine 750 ml,3.99,https://www.carrefour.be/fr/portico-rose-wine-750-ml/01215688.html,https://cdn.carrefour.eu/420_01215688_T1.webp,Rosé,Other,
+États -Unis Californie Gallo Cabernet Sauvignon Rouge 75cl,7.99,https://www.carrefour.be/fr/etats--unis-californie-gallo-cabernet-sauvignon-rouge-75cl/01158871.html,https://cdn.carrefour.eu/420_01158871_T1.webp,Red,75cl,
+Languedoc La Petite Française Blanc,7.99,https://www.carrefour.be/fr/languedoc-la-petite-francaise-blanc/06674099.html,https://cdn.carrefour.eu/420_06674099_M1_20210802.webp,White,Other,3.7
+Quay Landing Colombard Chardonnay - Wit - 3 L,15.99,https://www.carrefour.be/fr/quay-landing-colombard-chardonnay---wit---3-l/04336671.html,https://cdn.carrefour.eu/420_04336671_T1.webp,White,Box,3.2
+Roche Mazet Merlot Rouge 75cl,5.99,https://www.carrefour.be/fr/roche-mazet-merlot-rouge-75cl/04807656.html,https://cdn.carrefour.eu/420_04807656_M1_20230320.webp,Red,75cl,3.5
+La Cave d'Augustin Florent Bordeaux Rosé 75 cl,4.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-bordeaux-rose-75-cl/05774921.html,https://cdn.carrefour.eu/420_05774921_T1.webp,Rosé,75cl,3.3
+Solicello Bianco terre siciliane 3000 ml,10.99,https://www.carrefour.be/fr/solicello-bianco-terre-siciliane-3000-ml/04382531.html,https://cdn.carrefour.eu/420_04382531_T1.webp,White,Other,3.4
+Spanje Bag in Box Mucho Mas 3L,15.99,https://www.carrefour.be/fr/spanje-bag-in-box-mucho-mas-3l/06491276.html,https://cdn.carrefour.eu/420_06491276_M1_20240228.webp,Other,Box,3.8
+Alsace Murbach Pinot Blanc Blanc 75cl,7.49,https://www.carrefour.be/fr/alsace-murbach-pinot-blanc-blanc-75cl/06220405.html,https://cdn.carrefour.eu/420_06220405.webp,White,75cl,3.5
+Villa Molino D.O.C Valpolicella Ripasso Rouge 75cl,9.99,https://www.carrefour.be/fr/villa-molino-d.o.c-valpolicella-ripasso-rouge-75cl/06998522.html,https://cdn.carrefour.eu/420_06998522_main_20230822_01_PM.webp,Red,75cl,3.7
+Lambrusco Signoria Dei Duchi Rouge 75cl,2.99,https://www.carrefour.be/fr/lambrusco-signoria-dei-duchi-rouge-75cl/06995514.html,https://cdn.carrefour.eu/420_06995514_M1_20231226.webp,Red,75cl,3.8
+Mateus The Original Rosé,3.49,https://www.carrefour.be/fr/mateus-the-original-rose/04009124.html,https://cdn.carrefour.eu/420_04009124_ZST_003_10000000000183381.webp,Rosé,Other,3.7
+La Cave d'Augustin Florent Côtes de Bourg Grand vin Bordeaux rouge 3 L,16.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-cotes-de-bourg-grand-vin-bordeaux-rouge-3-l/04939941.html,https://cdn.carrefour.eu/420_04939941_T1.webp,Red,Box,3.3
+Sunset Creek Chardonnay Blanc 75cl,4.99,https://www.carrefour.be/fr/sunset-creek-chardonnay-blanc-75cl/04774934.html,https://cdn.carrefour.eu/420_04774934_T1.webp,White,75cl,3.4
+Valmeras Chardonnay Blanc 75cl,3.99,https://www.carrefour.be/fr/valmeras-chardonnay-blanc-75cl/06206076.html,https://cdn.carrefour.eu/420_06206076_T1.webp,White,75cl,3.5
+La Cave d'Augustin Florent Côtes du Rhône Les pierrasques 3L,15.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-cotes-du-rhone-les-pierrasques-3l/04827876.html,https://cdn.carrefour.eu/420_04827876_T1.webp,Red,Box,3.4
+Château de la Roche Touraine Sauvignon Blanc 750 ml,8.29,https://www.carrefour.be/fr/chateau-de-la-roche-touraine-sauvignon-blanc-750-ml/06333496.html,https://cdn.carrefour.eu/420_06333496_T1.webp,White,Other,3.8
+Californie Gallo Sauvignon Blanc 75cl,7.99,https://www.carrefour.be/fr/californie-gallo-sauvignon-blanc-75cl/01158870.html,https://cdn.carrefour.eu/420_01158870_T1.webp,White,75cl,3.3
+J.P. Chenet Colombard-Sauvignon,17.49,https://www.carrefour.be/fr/j.p.-chenet-colombard-sauvignon/05929299.html,https://cdn.carrefour.eu/420_05929299_T1.webp,White,Other,3.5
+La Croix Carillan Bourgogne grand ordinaire 75 cl,4.99,https://www.carrefour.be/fr/la-croix-carillan-bourgogne-grand-ordinaire-75-cl/04939827.html,https://cdn.carrefour.eu/420_04939827_T1.webp,Other,75cl,2.9
+Saint Amour La Cave d'Augustin Florent Rouge 75cl,10.79,https://www.carrefour.be/fr/saint-amour-la-cave-daugustin-florent-rouge-75cl/06914657.html,https://cdn.carrefour.eu/420_06914657_M1_20221012.webp,Red,75cl,3.4
+Cheverny Cuvée Prestige l'Excellence Val de Loire Blanc 75cl,8.99,https://www.carrefour.be/fr/cheverny-cuvee-prestige-lexcellence-val-de-loire-blanc-75cl/06633931.html,https://cdn.carrefour.eu/420_06633931_M1_20220120.webp,White,75cl,3.5
+Santa Rita 120 Reserva Especial Chardonnay Blanc 75cl,6.99,https://www.carrefour.be/fr/santa-rita-120-reserva-especial-chardonnay-blanc-75cl/06479520.html,https://cdn.carrefour.eu/420_06479520_T1.webp,White,75cl,3.4
+Santa Rita 120 Reserva Especial Merlot Rouge 75cl,6.99,https://www.carrefour.be/fr/santa-rita-120-reserva-especial-merlot-rouge-75cl/00972305.html,https://cdn.carrefour.eu/420_00972305_T1.webp,Red,75cl,3.3
+Bordeaux Haut-Médoc La Cave d'Augustin Florent Rouge 75cl,6.99,https://www.carrefour.be/fr/bordeaux-haut-medoc-la-cave-daugustin-florent-rouge-75cl/05245466.html,https://cdn.carrefour.eu/420_05245466_T1.webp,Red,75cl,3.3
+Grand Sud Merlot 1 L,5.99,https://www.carrefour.be/fr/grand-sud-merlot-1-l/05285403.html,https://cdn.carrefour.eu/420_05285403_T1.webp,Red,Other,3.1
+La Cave d'Augustin Florent Vin d'Alsace Pinot Noir Rouge 75cl,8.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-vin-dalsace-pinot-noir-rouge-75cl/04939821.html,https://cdn.carrefour.eu/420_04939821_T1.webp,Red,75cl,3.5
+Nelson Rabbit Island Sauvignon Blanc 75cl,9.99,https://www.carrefour.be/fr/nelson-rabbit-island-sauvignon-blanc-75cl/05996851.html,https://cdn.carrefour.eu/420_05996851_T01.webp,White,75cl,4.2
+St. Sebastian Liebfraumilch Rheinhessen 75cl,3.99,https://www.carrefour.be/fr/st.-sebastian-liebfraumilch-rheinhessen-75cl/00942834.html,https://cdn.carrefour.eu/420_00942834_T1.webp,White,75cl,3.4
+Zonin Pinot Grigio delle Venezie 250 ml,2.49,https://www.carrefour.be/fr/zonin-pinot-grigio-delle-venezie-250-ml/05364265.html,https://cdn.carrefour.eu/420_05364265_T1.webp,White,Other,3.7
+Grand Sud Chardonnay 1 L,6.99,https://www.carrefour.be/fr/grand-sud-chardonnay-1-l/04584567.html,https://cdn.carrefour.eu/420_04584567_T1.webp,White,Other,4.3
+Mateus Blanc 75cl,6.49,https://www.carrefour.be/fr/mateus-blanc-75cl/06024059.html,https://cdn.carrefour.eu/420_06024059_ZST_003_10000000000202230.webp,White,75cl,3.9
+La Cave d'Augustin Florent Monbazillac Blanc 75 cl,8.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-monbazillac-blanc-75-cl/04699905.html,https://cdn.carrefour.eu/420_04699905_T1.webp,White,75cl,3.4
+Bourgogne Clémence Jacob Chardonnay Blanc 75cl,7.99,https://www.carrefour.be/fr/bourgogne-clemence-jacob-chardonnay-blanc-75cl/07141617.html,https://cdn.carrefour.eu/420_07141617_M1_20241128.webp,White,75cl,3.8
+Saumur Grande Réserve 75 cl,5.99,https://www.carrefour.be/fr/saumur-grande-reserve-75-cl/04939945.html,https://cdn.carrefour.eu/420_04939945_T1.webp,Other,75cl,3.8
+L'Héritage de Carillan Chardonnay Pays d'Oc Blanc 75cl,4.99,https://www.carrefour.be/fr/lheritage-de-carillan-chardonnay-pays-doc-blanc-75cl/04838052.html,https://cdn.carrefour.eu/420_04838052_M1_20250210.webp,White,75cl,3.3
+Bordeaux Château Roc de Cazade Rouge 75cl,5.99,https://www.carrefour.be/fr/bordeaux-chateau-roc-de-cazade-rouge-75cl/04325151.html,https://cdn.carrefour.eu/420_04325151_T1.webp,Red,75cl,3.2
+Alsace Jean Murbach Pinot Gris Blanc 75cl,8.49,https://www.carrefour.be/fr/alsace-jean-murbach-pinot-gris-blanc-75cl/06210074.html,https://cdn.carrefour.eu/420_06210074.webp,White,75cl,3.7
+Abruzzes Ruminat Primitivo Biodynamie Rouge 75cl,8.99,https://www.carrefour.be/fr/abruzzes-ruminat-primitivo-biodynamie-rouge-75cl/06450811.html,https://cdn.carrefour.eu/420_06450811.webp,Red,75cl,4.0
+Loire Muscadet Sèvre-et-Maine La Cave d'Augustin Florent 75cl,6.99,https://www.carrefour.be/fr/loire-muscadet-sevre-et-maine-la-cave-daugustin-florent-75cl/04968013.html,https://cdn.carrefour.eu/420_04968013_T1.webp,Other,75cl,3.4
+Piemont Barbera d'Alba Bosio 75cl,9.99,https://www.carrefour.be/fr/piemont-barbera-dalba-bosio-75cl/06643815.html,https://cdn.carrefour.eu/420_06643815_M1_20210803.webp,Red,75cl,3.7
+Blaye Côtes de Bordeaux La Cave d’Augustin Florent Rouge 75cl,6.99,https://www.carrefour.be/fr/blaye-cotes-de-bordeaux-la-cave-daugustin-florent-rouge-75cl/04917056.html,https://cdn.carrefour.eu/420_04917056_M1_20220705.webp,Red,75cl,3.3
+Signature de Loire Pouilly-Fumé Blanc 75cl,15.99,https://www.carrefour.be/fr/signature-de-loire-pouilly-fume-blanc-75cl/07094233.html,https://cdn.carrefour.eu/420_07094233_M1_20241114.webp,White,75cl,3.8
+"Molise Pinot Grigio Sottariva "" Terre Degli Osci "" Blanc 75cl",5.99,https://www.carrefour.be/fr/molise-pinot-grigio-sottariva-terre-degli-osci-blanc-75cl/06038989.html,https://cdn.carrefour.eu/420_06038989.webp,White,75cl,3.9
+Languedoc Cersius Rouge 75cl,6.99,https://www.carrefour.be/fr/languedoc-cersius-rouge-75cl/05285836.html,https://cdn.carrefour.eu/420_05285836_M1_20210817.webp,Red,75cl,3.2
+Piccini Toscana Collezione Privata Blanc 75cl,8.99,https://www.carrefour.be/fr/piccini-toscana-collezione-privata-blanc-75cl/07245684.html,https://cdn.carrefour.eu/420_07245684_M1_20250514.webp,White,75cl,3.7
+Manoir de l'Hommelais Chardonnay Blanc 75cl,6.99,https://www.carrefour.be/fr/manoir-de-lhommelais-chardonnay-blanc-75cl/06039765.html,https://cdn.carrefour.eu/420_06039765_T1.webp,White,75cl,3.8
+La Cave d'Augustin Florent Viré-Clessé Blanc 75cl,11.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-vire-clesse-blanc-75cl/04404740.html,https://cdn.carrefour.eu/420_04404740_T1.webp,White,75cl,3.6
+Nelson Seifried Estate Rabbit Island Pinot Noir 75cl,9.99,https://www.carrefour.be/fr/nelson-seifried-estate-rabbit-island-pinot-noir-75cl/06029807.html,https://cdn.carrefour.eu/420_06029807_T01.webp,Red,75cl,3.4
+Bourgogne Aligoté La Cave d'Augustin Florent Blanc 75cl,10.99,https://www.carrefour.be/fr/bourgogne-aligote-la-cave-daugustin-florent-blanc-75cl/01651651.html,https://cdn.carrefour.eu/420_01651651_T1.webp,White,75cl,3.5
+Côtes du Rhône Cuvée réservée Blanc Sec 75cl,5.69,https://www.carrefour.be/fr/cotes-du-rhone-cuvee-reservee-blanc-sec-75cl/01510543.html,https://cdn.carrefour.eu/420_01510543_T1.webp,White,75cl,3.3
+Frankrijk La Cave d'Augustin Florent Bordeaux Rouge 37.5 cl,2.99,https://www.carrefour.be/fr/frankrijk-la-cave-daugustin-florent-bordeaux-rouge-37.5-cl/05764857.html,https://cdn.carrefour.eu/420_05764857_M1_20230405.webp,Red,Other,3.3
+Ogier Héritages Côtes du Rhône Rouge 75cl,7.99,https://www.carrefour.be/fr/ogier-heritages-cotes-du-rhone-rouge-75cl/01534995.html,https://cdn.carrefour.eu/420_01534995_T1.webp,Red,75cl,3.7
+Stellenbosch Kanonkop Kadette Cape Blend Rouge 75cl,10.99,https://www.carrefour.be/fr/stellenbosch-kanonkop-kadette-cape-blend-rouge-75cl/04013943.html,https://cdn.carrefour.eu/420_04013943_T1.webp,Red,75cl,3.9
+Toscane Brunello di Montalcino Piccini Villa Cortile Rouge 75cl,21.99,https://www.carrefour.be/fr/toscane-brunello-di-montalcino-piccini-villa-cortile-rouge-75cl/04380457.html,https://cdn.carrefour.eu/420_04380457_M1_20210825.webp,Red,75cl,4.0
+L'Héritage de Carillan Cabernet sauvignon Rouge 75cl,5.19,https://www.carrefour.be/fr/lheritage-de-carillan-cabernet-sauvignon-rouge-75cl/01651589.html,https://cdn.carrefour.eu/420_01651589_T1.webp,Red,75cl,3.2
+House of The Dragon Chardonnay Blanc 75cl,7.99,https://www.carrefour.be/fr/house-of-the-dragon-chardonnay-blanc-75cl/07228997.html,https://cdn.carrefour.eu/420_07228997_M1_20250610.webp,White,75cl,3.5
+Alsace Jean Murbach Riesling Blanc 75cl,7.99,https://www.carrefour.be/fr/alsace-jean-murbach-riesling-blanc-75cl/06233132.html,https://cdn.carrefour.eu/420_06233132.webp,White,75cl,3.7
+Domaines Vinsmoselle Rivaner 25 cl,1.99,https://www.carrefour.be/fr/domaines-vinsmoselle-rivaner-25-cl/04856028.html,https://cdn.carrefour.eu/420_04856028_T1.webp,White,25cl,
+Sainte-Victoire Côtes de Provence Rosé 75cl,8.99,https://www.carrefour.be/fr/sainte-victoire-cotes-de-provence-rose-75cl/05321247.html,https://cdn.carrefour.eu/420_05321247.webp,Rosé,75cl,3.7
+Languedoc Côtes de Thau Réserve de Monrouby Rosé 75cl,4.99,https://www.carrefour.be/fr/languedoc-cotes-de-thau-reserve-de-monrouby-rose-75cl/05474614.html,https://cdn.carrefour.eu/420_05474614_T01.webp,Rosé,75cl,3.7
+Fonte Da Perdiz Reserva Douro Rouge 75cl,7.99,https://www.carrefour.be/fr/fonte-da-perdiz-reserva-douro-rouge-75cl/07227528.html,https://cdn.carrefour.eu/420_07227528_M1_20250514.webp,Red,75cl,3.9
+La Cave d'Augustin Florent Languedoc 75 cl,4.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-languedoc-75-cl/04939850.html,https://cdn.carrefour.eu/420_04939850_T1.webp,Other,75cl,3.4
+Languedoc Le Secret de Latude Rouge 75cl,10.99,https://www.carrefour.be/fr/languedoc-le-secret-de-latude-rouge-75cl/06674449.html,https://cdn.carrefour.eu/420_06674449_M1_20210824.webp,Red,75cl,3.9
+La Cave d'Augustin Florent Cabernet d'anjou 2013 75 cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-cabernet-danjou-2013-75-cl/01651484.html,https://cdn.carrefour.eu/420_01651484_T1.webp,Red,75cl,3.5
+Bordeaux Château L'Insoumise Rouge 75cl,5.99,https://www.carrefour.be/fr/bordeaux-chateau-linsoumise-rouge-75cl/04807378.html,https://cdn.carrefour.eu/420_04807378_T1.webp,Red,75cl,3.4
+Cabernet Sauvignon 3L,19.99,https://www.carrefour.be/fr/cabernet-sauvignon-3l/05110962.html,https://cdn.carrefour.eu/420_05110962_T1.webp,Red,Box,
+Naterra Bio Rosé Box 3L,10.99,https://www.carrefour.be/fr/naterra-bio-rose-box-3l/06216739.html,https://cdn.carrefour.eu/420_06216739.webp,Rosé,Box,3.6
+Côtes du Rhône Villages A.O.C Innocent VI Sablet Rouge 75cl,6.99,https://www.carrefour.be/fr/cotes-du-rhone-villages-a.o.c-innocent-vi-sablet-rouge-75cl/07250315.html,https://cdn.carrefour.eu/420_07250315_M1_20250514.webp,Red,75cl,
+Montepulciano d'Abruzzo Casa Botter La Botte Rouge 75cl,4.99,https://www.carrefour.be/fr/montepulciano-dabruzzo-casa-botter-la-botte-rouge-75cl/01009870.html,https://cdn.carrefour.eu/420_01009870_T1.webp,Red,75cl,3.3
+Val de Loire Vouvray Sec Vignoble Brisebarre Blanc 75cl,9.99,https://www.carrefour.be/fr/val-de-loire-vouvray-sec-vignoble-brisebarre-blanc-75cl/06587165.html,https://cdn.carrefour.eu/420_06587165_M1_20210803.webp,White,75cl,
+Domaines Vinsmoselle Pinot Gris Blanc 75cl,8.99,https://www.carrefour.be/fr/domaines-vinsmoselle-pinot-gris-blanc-75cl/01708983.html,https://cdn.carrefour.eu/420_01708983_T1.webp,White,75cl,3.5
+Vin de Messe Doux 75 cl,4.59,https://www.carrefour.be/fr/vin-de-messe-doux-75-cl/00163310.html,https://cdn.carrefour.eu/420_00163310_T1.webp,Other,75cl,3.9
+Côte du Rhône Villages Séguret Rouge 75cl,6.99,https://www.carrefour.be/fr/cote-du-rhone-villages-seguret-rouge-75cl/04985700.html,https://cdn.carrefour.eu/420_04985700_T1.webp,Red,75cl,
+Bourgogne Macon Village l'Aurore Chardonnay Blanc 75cl,9.99,https://www.carrefour.be/fr/bourgogne-macon-village-laurore-chardonnay-blanc-75cl/06978573.html,https://cdn.carrefour.eu/420_06978573_M1_20230613.webp,White,75cl,3.4
+Thomas & Thierry Cairanne Côtes du Rhône Villages 75 cl,7.99,https://www.carrefour.be/fr/thomas-and-thierry-cairanne-cotes-du-rhone-villages-75-cl/04880394.html,https://cdn.carrefour.eu/420_04880394_T1.webp,Red,75cl,3.8
+Château Le Grand Verdus Réserve Bordeaux Supérieur Rouge 75cl,8.99,https://www.carrefour.be/fr/chateau-le-grand-verdus-reserve-bordeaux-superieur-rouge-75cl/05071325.html,https://cdn.carrefour.eu/420_05071325_T1.webp,Red,75cl,4.0
+Sette Muri Primitivo di Manduria Rouge 75cl,9.99,https://www.carrefour.be/fr/sette-muri-primitivo-di-manduria-rouge-75cl/06045296.html,https://cdn.carrefour.eu/420_06045296_T1.webp,Red,75cl,4.3
+Glühwein Gerstacker 1L,3.99,https://www.carrefour.be/fr/gluhwein-gerstacker-1l/01479196.html,https://cdn.carrefour.eu/420_01479196_M1_20231130.webp,Other,Other,3.8
+Aude,2.99,https://www.carrefour.be/fr/aude/06785381.html,https://cdn.carrefour.eu/420_06785381_M1_20220110.webp,Other,Other,3.5
+Listel Sable de Camargue Grain de Gris 3 L,19.99,https://www.carrefour.be/fr/listel-sable-de-camargue-grain-de-gris-3-l/04006227.html,https://cdn.carrefour.eu/420_04006227_T1.webp,Rosé,Box,3.5
+Bordeaux Supérieur Château Le Grand Verdus Rouge 75cl,7.99,https://www.carrefour.be/fr/bordeaux-superieur-chateau-le-grand-verdus-rouge-75cl/01185271.html,https://cdn.carrefour.eu/420_01185271_T1.webp,Red,75cl,3.5
+Puglia Nostre Terre Negroamaro Rouge 75cl,7.99,https://www.carrefour.be/fr/puglia-nostre-terre-negroamaro-rouge-75cl/06998519.html,https://cdn.carrefour.eu/420_06998519_M1_20230912.webp,Red,75cl,3.7
+Il Feudo Provincia di Pavia Pinot Grigio Blanc 75cl,3.99,https://www.carrefour.be/fr/il-feudo-provincia-di-pavia-pinot-grigio-blanc-75cl/06998523.html,https://cdn.carrefour.eu/420_06998523_main_20230829_01_PM.webp,White,75cl,3.3
+Pays d'Hérault rouge 5 L,16.99,https://www.carrefour.be/fr/pays-dherault-rouge-5-l/04753565.html,https://cdn.carrefour.eu/420_04753565_T1.webp,Red,Other,3.4
+La Cave d'Augustin Florent Touraine Sauvignon 75 cl,6.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-touraine-sauvignon-75-cl/05089325.html,https://cdn.carrefour.eu/420_05089325_T1.webp,White,75cl,3.4
+Bordeaux Château Cazeau Rouge 75cl,5.99,https://www.carrefour.be/fr/bordeaux-chateau-cazeau-rouge-75cl/04835315.html,https://cdn.carrefour.eu/420_04835315_T1.webp,Red,75cl,3.9
+Bordeaux Lussac Saint-Émilion Rouge 75cl,7.99,https://www.carrefour.be/fr/bordeaux-lussac-saint-emilion-rouge-75cl/06461976.html,https://cdn.carrefour.eu/420_06461976.webp,Red,75cl,4.0
+Minervois 25 cl,1.99,https://www.carrefour.be/fr/minervois-25-cl/01432892.html,https://cdn.carrefour.eu/420_01432892_T1.webp,Red,25cl,
+Bordeaux Puisseguin Saint-Émilion Rouge 75cl,7.99,https://www.carrefour.be/fr/bordeaux-puisseguin-saint-emilion-rouge-75cl/06461974.html,https://cdn.carrefour.eu/420_06461974_T01.webp,Red,75cl,3.2
+Belgique Vin de la communauté européenne Vin blanc 75 cl,2.99,https://www.carrefour.be/fr/belgique-vin-de-la-communaute-europeenne-vin-blanc-75-cl/06801089.html,https://cdn.carrefour.eu/420_06801089_T1.webp,White,75cl,
+Listel Sable de Camargue Grain de Gris Rosé 75cl,6.99,https://www.carrefour.be/fr/listel-sable-de-camargue-grain-de-gris-rose-75cl/00162247.html,https://cdn.carrefour.eu/420_00162247_T1.webp,Rosé,75cl,3.5
+Château Labrousse Blaye Côtes de Bordeaux Rouge 75cl,7.99,https://www.carrefour.be/fr/chateau-labrousse-blaye-cotes-de-bordeaux-rouge-75cl/05321259.html,https://cdn.carrefour.eu/420_05321259_T1.webp,Red,75cl,3.7
+Mouton Cadet Baron de Rothschild Bordeaux Rouge 75cl,10.99,https://www.carrefour.be/fr/mouton-cadet-baron-de-rothschild-bordeaux-rouge-75cl/01009422.html,https://cdn.carrefour.eu/420_01009422_T1.webp,Red,75cl,3.4
+Chili Rosado 75cl,3.99,https://www.carrefour.be/fr/chili-rosado-75cl/06708677.html,https://cdn.carrefour.eu/420_06708677_T1.webp,Rosé,75cl,3.5
+Tordelcolle Brindisi D.O.C Riserva Rouge 75cl,5.99,https://www.carrefour.be/fr/tordelcolle-brindisi-d.o.c-riserva-rouge-75cl/07247651.html,https://cdn.carrefour.eu/420_07247651_M1_20250514.webp,Red,75cl,
+Barbera D'asti Araldica Rouge 75cl,8.99,https://www.carrefour.be/fr/barbera-dasti-araldica-rouge-75cl/07040453.html,https://cdn.carrefour.eu/420_07040453_M1_20240117.webp,Red,75cl,3.5
+Christkindles Glühwein 1L,2.99,https://www.carrefour.be/fr/christkindles-gluhwein-1l/01490752.html,https://cdn.carrefour.eu/420_01490752_M1_20231130.webp,Other,Other,3.8
+Vignes Ancestrales Saint-Chinian Rouge 25cl,2.99,https://www.carrefour.be/fr/vignes-ancestrales-saint-chinian-rouge-25cl/01432768.html,https://cdn.carrefour.eu/420_01432768_M1_20231204.webp,Red,25cl,3.2
+Naterra Bio Blanc Box 3L,10.99,https://www.carrefour.be/fr/naterra-bio-blanc-box-3l/06216740.html,https://cdn.carrefour.eu/420_06216740_M1_20210419.webp,White,Box,3.8
+Côte du Rhône Plan de Dieu Domaine Mistral Rouge 75cl,8.19,https://www.carrefour.be/fr/cote-du-rhone-plan-de-dieu-domaine-mistral-rouge-75cl/05321246.html,https://cdn.carrefour.eu/420_05321246_M1_20230814.webp,Red,75cl,3.7
+Château Roc de Cazade Réserve Bordeaux 37.5 cl,3.99,https://www.carrefour.be/fr/chateau-roc-de-cazade-reserve-bordeaux-37.5-cl/04574181.html,https://cdn.carrefour.eu/420_04574181_T1.webp,Red,Other,3.1
+La Cave d'Augustin Florent Bourgogne Chardonnay Blanc 75 cl,9.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-bourgogne-chardonnay-blanc-75-cl/04918631.html,https://cdn.carrefour.eu/420_04918631_M1_20250129.webp,White,75cl,3.5
+African Dream Chenin Blanc 75 cl,3.99,https://www.carrefour.be/fr/african-dream-chenin-blanc-75-cl/07016635.html,https://cdn.carrefour.eu/420_07016635_T1.webp,White,75cl,3.6
+African Dream Rosé 75cl,3.99,https://www.carrefour.be/fr/african-dream-rose-75cl/07020313.html,https://cdn.carrefour.eu/420_07020313_M1_20231222.webp,Rosé,75cl,3.7
+Côte du Rhône Gigondas Famille Gras Les Gracières 75cl,15.99,https://www.carrefour.be/fr/cote-du-rhone-gigondas-famille-gras-les-gracieres-75cl/06206026.html,https://cdn.carrefour.eu/420_06206026.webp,Red,75cl,3.8
+Bordeaux Supérieur Château Canteloudette Rouge 75cl,5.99,https://www.carrefour.be/fr/bordeaux-superieur-chateau-canteloudette-rouge-75cl/04970133.html,https://cdn.carrefour.eu/420_04970133_T1.webp,Red,75cl,3.4
+Languedoc La Petite Française Rouge 75cl,7.99,https://www.carrefour.be/fr/languedoc-la-petite-francaise-rouge-75cl/06674007.html,https://cdn.carrefour.eu/420_06674007_M1_20210802.webp,Red,75cl,3.5
+De Bortoli The Astronomer Chardonnay 750 ml,5.99,https://www.carrefour.be/fr/de-bortoli-the-astronomer-chardonnay-750-ml/05994758.html,https://cdn.carrefour.eu/420_05994758_T1.webp,White,Other,3.4
+Cépage Vin désalcoolisé Syrah Rouge 75cl,6.19,https://www.carrefour.be/fr/cepage-vin-desalcoolise-syrah-rouge-75cl/05227073.html,https://cdn.carrefour.eu/420_05227073_M1_20241216.webp,Red,75cl,3.7
+Tierra de Castilla Embruja del Campo Rouge Bio Cubitainer,13.99,https://www.carrefour.be/fr/tierra-de-castilla-embruja-del-campo-rouge-bio-cubitainer/06484904.html,https://cdn.carrefour.eu/420_06484904_T1.webp,Red,Other,3.6
+Joseph Arnoux Vacqueyras Rouge 75cl,11.99,https://www.carrefour.be/fr/joseph-arnoux-vacqueyras-rouge-75cl/07107612.html,https://cdn.carrefour.eu/420_07107612_20240712_01_PM.webp,Red,75cl,3.9
+Bordeaux L'entre Deux Mers Ephémère Blanc 75cl,8.98,https://www.carrefour.be/fr/bordeaux-lentre-deux-mers-ephemere-blanc-75cl/06980600.html,https://cdn.carrefour.eu/420_06980600_M1_20230613.webp,White,75cl,3.8
+Bordeaux La Gave D'augustin Florent Blanc sec 75cl,4.99,https://www.carrefour.be/fr/bordeaux-la-gave-daugustin-florent-blanc-sec-75cl/04405675.html,https://cdn.carrefour.eu/420_04405675_T1.webp,White,75cl,3.3
+Prestige Madiran Rouge 75 cl,7.99,https://www.carrefour.be/fr/prestige-madiran-rouge-75-cl/00850900.html,https://cdn.carrefour.eu/420_00850900_T1.webp,Red,75cl,3.8
+Lacheteau Soupçon de Fruit Haut Poitou Sauvignon Blanc 75cl,7.99,https://www.carrefour.be/fr/lacheteau-soupcon-de-fruit-haut-poitou-sauvignon-blanc-75cl/06760947.html,https://cdn.carrefour.eu/420_06760947_M1_20211125.webp,White,75cl,3.7
+Memoro Piccini Rosé 75cl,7.99,https://www.carrefour.be/fr/memoro-piccini-rose-75cl/07040429.html,https://cdn.carrefour.eu/420_07040429_M1_20231214.webp,Rosé,75cl,3.8
+Cépage Merlot Sans Alcool 0.0% 75 cl,5.99,https://www.carrefour.be/fr/cepage-merlot-sans-alcool-0.0-75-cl/05668451.html,https://cdn.carrefour.eu/420_05668451_M1_20231116.webp,Red,75cl,4.1
+Aude Rosé 25 cl,1.99,https://www.carrefour.be/fr/aude-rose-25-cl/01432882.html,https://cdn.carrefour.eu/420_01432882_T1.webp,Rosé,25cl,3.6
+La Cave D'Augustin Florent Médoc 37.5 cl,3.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-medoc-37.5-cl/04576827.html,https://cdn.carrefour.eu/420_04576827_T1.webp,Red,Other,3.5
+Piccini Orvieto 750 ml,4.99,https://www.carrefour.be/fr/piccini-orvieto-750-ml/01396908.html,https://cdn.carrefour.eu/420_01396908_T1.webp,White,Other,3.4
+Trapiche Oak Cask Malbec Rouge 75 cl,7.99,https://www.carrefour.be/fr/trapiche-oak-cask-malbec-rouge-75-cl/04399121.html,https://cdn.carrefour.eu/420_04399121_T1.webp,Red,75cl,3.7
+La Piqueta Reserva Cabernet Sauvignon Rouge 75cl,8.99,https://www.carrefour.be/fr/la-piqueta-reserva-cabernet-sauvignon-rouge-75cl/07245325.html,https://cdn.carrefour.eu/420_07245325_M1_20250514.webp,Red,75cl,
+Rueda Sauvignon Blanc Verdejo 75 cl,7.49,https://www.carrefour.be/fr/rueda-sauvignon-blanc-verdejo-75-cl/06977344.html,https://cdn.carrefour.eu/420_06977344_M1_20241107.webp,White,75cl,3.7
+J.P. Chenet Grenache-Cinsault 25 cl,2.49,https://www.carrefour.be/fr/j.p.-chenet-grenache-cinsault-25-cl/01507153.html,https://cdn.carrefour.eu/420_01507153.webp,Red,25cl,3.4
+Côte du Rhône La Résistance Bio 75cl,9.99,https://www.carrefour.be/fr/cote-du-rhone-la-resistance-bio-75cl/05910841.html,https://cdn.carrefour.eu/420_05910841_T1.webp,Other,75cl,3.8
+Beaujolais Nouveau Rouge 75cl,7.99,https://www.carrefour.be/fr/beaujolais-nouveau-rouge-75cl/04775100.html,https://cdn.carrefour.eu/420_04775100_M1_20230823.webp,Red,75cl,3.1
+Valmeras Sauvignon Blanc 75 cl,3.99,https://www.carrefour.be/fr/valmeras-sauvignon-blanc-75-cl/06206108.html,https://cdn.carrefour.eu/420_06206108_T1.webp,White,75cl,3.3
+Côtes du Rhône Villages A.O.C Innocent VI Cairanne Rouge 75cl,6.99,https://www.carrefour.be/fr/cotes-du-rhone-villages-a.o.c-innocent-vi-cairanne-rouge-75cl/07250349.html,https://cdn.carrefour.eu/420_07250349_M1_20250514.webp,Red,75cl,3.6
+Les Petites Caves Bordeaux 75 cl,4.29,https://www.carrefour.be/fr/les-petites-caves-bordeaux-75-cl/06776700.html,https://cdn.carrefour.eu/420_06776700_T1.webp,Red,75cl,3.0
+Cabernet-Syrah Pays d'Oc 4 x 25 cl,8.99,https://www.carrefour.be/fr/cabernet-syrah-pays-doc-4-x-25-cl/04348674.html,https://cdn.carrefour.eu/420_04348674_T1.webp,Red,25cl,3.7
+Landhaus Paul Grüner Veltliner Selection Blanc 75cl,5.99,https://www.carrefour.be/fr/landhaus-paul-gruner-veltliner-selection-blanc-75cl/07247700.html,https://cdn.carrefour.eu/420_07247700_M1_20250514.webp,White,75cl,3.8
+Château Le Grand Verdus Bordeaux Supérieur Rouge 6 x 750 ml,47.94,https://www.carrefour.be/fr/chateau-le-grand-verdus-bordeaux-superieur-rouge-6-x-750-ml/01193004.html,https://cdn.carrefour.eu/420_01193004_T1.webp,Red,Other,3.5
+Classic Jacob's Creek Chardonnay Blanc 75cl,8.49,https://www.carrefour.be/fr/classic-jacobs-creek-chardonnay-blanc-75cl/01096515.html,https://cdn.carrefour.eu/420_01096515_JC Chardonnay_MPM.webp,White,75cl,3.4
+Cépage Vin désalcoolisé Merlot 75cl,6.19,https://www.carrefour.be/fr/cepage-vin-desalcoolise-merlot-75cl/05227072.html,https://cdn.carrefour.eu/420_05227072_M1_20241216.webp,Red,75cl,
+J.P. Chenet Cabernet-Syrah Pays d'Oc 25 cl,2.29,https://www.carrefour.be/fr/j.p.-chenet-cabernet-syrah-pays-doc-25-cl/05245915.html,https://cdn.carrefour.eu/420_05245915_T1.webp,Red,25cl,3.4
+St. Sebastian Liebfraumilch Rheinhessen 3 L,13.99,https://www.carrefour.be/fr/st.-sebastian-liebfraumilch-rheinhessen-3-l/01428070.html,https://cdn.carrefour.eu/420_01428070_T1.webp,White,Box,3.4
+La Cave d'Augustin Florent Corbières Rouge 3 L,14.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-corbieres-rouge-3-l/04713623.html,https://cdn.carrefour.eu/420_04713623_T1.webp,Red,Box,3.3
+Bourgogne Passetoutgrain Rouge 75cl,9.99,https://www.carrefour.be/fr/bourgogne-passetoutgrain-rouge-75cl/07215448.html,https://cdn.carrefour.eu/420_07215448_M19_20250220.webp,Red,75cl,3.7
+Alsace Famille Cattin Pinot Gris bio 75cl,8.99,https://www.carrefour.be/fr/alsace-famille-cattin-pinot-gris-bio-75cl/06233128.html,https://cdn.carrefour.eu/420_06233128_M1_20220923.webp,White,75cl,3.5
+Château Cazeaux Grand Vin de Bordeaux 75 cl,7.99,https://www.carrefour.be/fr/chateau-cazeaux-grand-vin-de-bordeaux-75-cl/05078965.html,https://cdn.carrefour.eu/420_05078965_T1.webp,Red,75cl,4.0
+Twin Rivers Colombard Chardonnay Blanc 75cl,3.99,https://www.carrefour.be/fr/twin-rivers-colombard-chardonnay-blanc-75cl/06955040.html,https://cdn.carrefour.eu/420_06955040_M1_20230609.webp,White,75cl,3.2
+Oh My Pamplemousse Rosé 3L,10.99,https://www.carrefour.be/fr/oh-my-pamplemousse-rose-3l/06237945.html,https://cdn.carrefour.eu/420_21611927_main_avant_BP.webp,Rosé,Box,3.2
+Vallée du Rhône Châteauneuf du Pape Castel 75cl,20.99,https://www.carrefour.be/fr/vallee-du-rhone-chateauneuf-du-pape-castel-75cl/05889227.html,https://cdn.carrefour.eu/420_05889227_M1_20230606.webp,Other,75cl,4.1
+Rosso Piceno Velenosi Bio Rouge 75cl,6.99,https://www.carrefour.be/fr/rosso-piceno-velenosi-bio-rouge-75cl/06854365.html,https://cdn.carrefour.eu/420_06854365_M1_20221017.webp,Red,75cl,3.7
+Bordeaux Château Lalande-Labatut,5.99,https://www.carrefour.be/fr/bordeaux-chateau-lalande-labatut/04003814.html,https://cdn.carrefour.eu/420_04003814_T1.webp,Red,Other,3.3
+Grand Sud Merlot 1 L,5.99,https://www.carrefour.be/fr/grand-sud-merlot-1-l/04584516.html,https://cdn.carrefour.eu/420_04584516_T1.webp,Red,Other,3.1
+Zonin Montepulciano d'Abruzzo 250 ml,2.99,https://www.carrefour.be/fr/zonin-montepulciano-dabruzzo-250-ml/05364299.html,https://cdn.carrefour.eu/420_05364299_T1.webp,Red,Other,3.5
+Sauvignon Blanc 75cl,6.69,https://www.carrefour.be/fr/sauvignon-blanc-75cl/04008803.html,https://cdn.carrefour.eu/420_04008803_T1.webp,White,75cl,3.9
+Naterra Bio Blanc 75cl,4.99,https://www.carrefour.be/fr/naterra-bio-blanc-75cl/06197465.html,https://cdn.carrefour.eu/420_06197465_T01.webp,White,75cl,3.8
+Cellier des Dauphins prestige côtes du rhône Rosé 750 ml,5.99,https://www.carrefour.be/fr/cellier-des-dauphins-prestige-cotes-du-rhone-rose-750-ml/01217794.html,https://cdn.carrefour.eu/420_01217794_T1.webp,Rosé,Other,3.4
+Bordeaux Côtes de Bourg Château Plaisance Rouge 75cl,7.59,https://www.carrefour.be/fr/bordeaux-cotes-de-bourg-chateau-plaisance-rouge-75cl/05099006.html,https://cdn.carrefour.eu/420_05099006_T1.webp,Red,75cl,3.6
+Chablis Jean Bouchard 37.5cl,9.99,https://www.carrefour.be/fr/chablis-jean-bouchard-37.5cl/06854554.html,https://cdn.carrefour.eu/420_06854554_M1_20220707.webp,White,Other,4.1
+Chardonnay Sans Alcool 0.0% Blanc 75cl,5.99,https://www.carrefour.be/fr/chardonnay-sans-alcool-0.0-blanc-75cl/05668449.html,https://cdn.carrefour.eu/420_05668449_M1_20231116.webp,White,75cl,
+Curvos Superior Vinho Verde Blanc 75cl,5.99,https://www.carrefour.be/fr/curvos-superior-vinho-verde-blanc-75cl/06644415.html,https://cdn.carrefour.eu/420_06644415_T1.webp,White,75cl,3.8
+Bourgogne Cote Chalonnaise Mont-Avril,13.99,https://www.carrefour.be/fr/bourgogne-cote-chalonnaise-mont-avril/06887640.html,https://cdn.carrefour.eu/420_06887640_M1_20220822.webp,Other,Other,3.6
+Chianti Classico Ala Di Farfalla Rouge 75cl,8.99,https://www.carrefour.be/fr/chianti-classico-ala-di-farfalla-rouge-75cl/07020259.html,https://cdn.carrefour.eu/420_07020259_M1_20231128.webp,Red,75cl,3.5
+Cellier des Dauphins Prestige Côtes du Rhône Rosé 3 L,18.99,https://www.carrefour.be/fr/cellier-des-dauphins-prestige-cotes-du-rhone-rose-3-l/04459372.html,https://cdn.carrefour.eu/420_04459372_T1.webp,Rosé,Box,
+Tokaji Furmint Blanc 75cl,6.99,https://www.carrefour.be/fr/tokaji-furmint-blanc-75cl/07183511.html,https://cdn.carrefour.eu/420_07183511_M1_20241203.webp,White,75cl,3.9
+Montepulciano d'Abruzzo Riserva Rouge 75cl,6.99,https://www.carrefour.be/fr/montepulciano-dabruzzo-riserva-rouge-75cl/06920995.html,https://cdn.carrefour.eu/420_06920995_main_20230113_01_PM.webp,Red,75cl,4.1
+La Cave d'Augustin Florent Vin de Savoie apremont 75 cl,9.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-vin-de-savoie-apremont-75-cl/05277046.html,https://cdn.carrefour.eu/420_05277046_M1_20230405.webp,White,75cl,3.4
+Pelure d'Oignon Vin rosé 75 cl,3.49,https://www.carrefour.be/fr/pelure-doignon-vin-rose-75-cl/06831318.html,https://cdn.carrefour.eu/420_06831318_T1.webp,Rosé,75cl,2.0
+Pinot noir Sans Alcool 0% Rosé 75cl,6.99,https://www.carrefour.be/fr/pinot-noir-sans-alcool-0-rose-75cl/07112201.html,https://cdn.carrefour.eu/420_07112201_M1_20240514.webp,Red,75cl,3.9
+Côtes Du Rhône Rosé sec cuvée réservée Rosé 75cl,5.69,https://www.carrefour.be/fr/cotes-du-rhone-rose-sec-cuvee-reservee-rose-75cl/01510548.html,https://cdn.carrefour.eu/420_01510548_M1_20230605.webp,Rosé,75cl,3.3
+Sauvignon Night Orient Sans Alcool Blanc 75cl,5.99,https://www.carrefour.be/fr/sauvignon-night-orient-sans-alcool-blanc-75cl/06700747.html,https://cdn.carrefour.eu/420_06700747_M1_20211125.webp,White,75cl,
+Portugal The Original Rosé 75cl,6.49,https://www.carrefour.be/fr/portugal-the-original-rose-75cl/06033074.html,https://cdn.carrefour.eu/420_06033074.webp,Rosé,75cl,3.7
+Long Tail Premium Chardonnay 75cl,5.99,https://www.carrefour.be/fr/long-tail-premium-chardonnay-75cl/06936644.html,https://cdn.carrefour.eu/420_06936644_T1.webp,White,75cl,
+Sunset Creek Chardonnay 37.5 cl,3.99,https://www.carrefour.be/fr/sunset-creek-chardonnay-37.5-cl/05017097.html,https://cdn.carrefour.eu/420_05017097_T1.webp,White,Other,3.4
+Pays d'Oc Cabernet sauvignon rouge 3 L,12.29,https://www.carrefour.be/fr/pays-doc-cabernet-sauvignon-rouge-3-l/04361078.html,https://cdn.carrefour.eu/420_04361078_T1.webp,Red,Box,
+Languedoc Cersius Blanc 75cl,7.29,https://www.carrefour.be/fr/languedoc-cersius-blanc-75cl/05286378.html,https://cdn.carrefour.eu/420_05286378_T01.webp,White,75cl,3.7
+Piccini Collezione Oro Vermentino IGT Blanc 75cl,7.99,https://www.carrefour.be/fr/piccini-collezione-oro-vermentino-igt-blanc-75cl/07246314.html,https://cdn.carrefour.eu/420_07246314_M1_20250515.webp,White,75cl,3.9
+Cabernet d'Anjou 75 cl,6.19,https://www.carrefour.be/fr/cabernet-danjou-75-cl/05868241.html,https://cdn.carrefour.eu/420_05868241_T1.webp,Red,75cl,3.5
+Grand Sud Merlot Rosé 6 x 1 L,35.94,https://www.carrefour.be/fr/grand-sud-merlot-rose-6-x-1-l/05285241.html,https://cdn.carrefour.eu/420_05285241_T1.webp,Red,Other,3.5
+Naterra Rouge Bio Cubitainer 3L,10.99,https://www.carrefour.be/fr/naterra-rouge-bio-cubitainer-3l/06214917.html,https://cdn.carrefour.eu/420_06214917.webp,Red,Box,3.8
+Chardonnay 3L,19.99,https://www.carrefour.be/fr/chardonnay-3l/05890059.html,https://cdn.carrefour.eu/420_05890059_T1.webp,White,Box,2.9
+Domaines Vinsmoselle Rivaner Côtes de Remich 3 x 25 cl,5.99,https://www.carrefour.be/fr/domaines-vinsmoselle-rivaner-cotes-de-remich-3-x-25-cl/00162850.html,https://cdn.carrefour.eu/420_00162850_T1.webp,White,25cl,3.5
+Beaumanoir Vin de Rouge 5 L,16.99,https://www.carrefour.be/fr/beaumanoir-vin-de-rouge-5-l/04835706.html,https://cdn.carrefour.eu/420_04835706_T1.webp,Red,Other,
+Valencia Utiel-Requena Pena Tejo Rosé 75cl,4.99,https://www.carrefour.be/fr/valencia-utiel-requena-pena-tejo-rose-75cl/06574305.html,https://cdn.carrefour.eu/420_06574305.webp,Rosé,75cl,3.4
+Cépage Vin désalcoolisé Chardonnay Blanc 75cl,6.19,https://www.carrefour.be/fr/cepage-vin-desalcoolise-chardonnay-blanc-75cl/05227076.html,https://cdn.carrefour.eu/420_05227076_M1_20241216.webp,White,75cl,
+Côtes du Rhône Château d'Aigueville Blanc 75cl,7.99,https://www.carrefour.be/fr/cotes-du-rhone-chateau-daigueville-blanc-75cl/07245661.html,https://cdn.carrefour.eu/420_07245661_M1_20250514.webp,White,75cl,3.7
+Niederösterreich Domäne Krems Grüner Veltliner Blanc 75cl,5.99,https://www.carrefour.be/fr/niederosterreich-domane-krems-gruner-veltliner-blanc-75cl/05218163.html,https://cdn.carrefour.eu/420_05218163_T1.webp,White,75cl,3.7
+Loire Menetou-Salon Domaine de Jesmet 75cl,13.49,https://www.carrefour.be/fr/loire-menetou-salon-domaine-de-jesmet-75cl/06462039.html,https://cdn.carrefour.eu/420_06462039.webp,White,75cl,3.7
+Montagne Saint-Émilion La Cave d'Augustin Florent Rouge 75cl,7.99,https://www.carrefour.be/fr/montagne-saint-emilion-la-cave-daugustin-florent-rouge-75cl/01651820.html,https://cdn.carrefour.eu/420_01651820_M1_20231109.webp,Red,75cl,3.5
+Curiosité Chardonnay Blanc 75cl,5.99,https://www.carrefour.be/fr/curiosite-chardonnay-blanc-75cl/07104397.html,https://cdn.carrefour.eu/420_07104397_M1_20240701.webp,White,75cl,3.5
+Rioja Sangre de Toro Tempranillo Rouge 75cl,7.99,https://www.carrefour.be/fr/rioja-sangre-de-toro-tempranillo-rouge-75cl/06985773.html,https://cdn.carrefour.eu/420_06985773_M1_20231211.webp,Red,75cl,3.7
+La Cave d'Augustin Florent Tavel 75 cl,8.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-tavel-75-cl/05304683.html,https://cdn.carrefour.eu/420_05304683_T1.webp,Rosé,75cl,3.4
+Saint Emilion Château Grand Rivallon Grand Cru Rouge 75cl,12.99,https://www.carrefour.be/fr/saint-emilion-chateau-grand-rivallon-grand-cru-rouge-75cl/07183357.html,https://cdn.carrefour.eu/420_07183357_M1_20250212.webp,Red,75cl,3.8
+Cinsault et Grenache l'Héritage de Carillan IGP Rosé 75cl,4.99,https://www.carrefour.be/fr/cinsault-et-grenache-lheritage-de-carillan-igp-rose-75cl/06805490.html,https://cdn.carrefour.eu/420_22113428_main_avant_BP.webp,Rosé,75cl,3.3
+Marqués de Cáceres Rioja Blanco 75cl,7.99,https://www.carrefour.be/fr/marques-de-caceres-rioja-blanco-75cl/00162843.html,https://cdn.carrefour.eu/420_00162843_T1.webp,White,75cl,3.5
+Côtes du Rhône Ventoux La Ferme Julien Blanc 75cl,6.49,https://www.carrefour.be/fr/cotes-du-rhone-ventoux-la-ferme-julien-blanc-75cl/05532347.html,https://cdn.carrefour.eu/420_05532347.webp,White,75cl,3.7
+La Cave d'Augustin Florent Muscadet Sèvre et Maine sur Lie 37.5 cl,4.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-muscadet-sevre-et-maine-sur-lie-37.5-cl/04405450.html,https://cdn.carrefour.eu/420_04405450_M1_20230419.webp,White,Other,3.4
+Quay Landing Shiraz Rouge 3L,15.99,https://www.carrefour.be/fr/quay-landing-shiraz-rouge-3l/04339343.html,https://cdn.carrefour.eu/420_04339343_T1.webp,Red,Box,3.2
+Mosel Peter & Peter Riesling,6.99,https://www.carrefour.be/fr/mosel-peter-and-peter-riesling/05342844.html,https://cdn.carrefour.eu/420_05342844_T1.webp,White,Other,3.9
+Naudin Bourgogne Hautes-Côtes de Nuits Rood 75cl,16.99,https://www.carrefour.be/fr/naudin-bourgogne-hautes-cotes-de-nuits-rood-75cl/07143761.html,https://cdn.carrefour.eu/420_07143761_M1_20250403.webp,Red,75cl,3.9
+"Petit Chablis Bag-in-Box Blanc 2,25L",26.99,https://www.carrefour.be/fr/petit-chablis-bag-in-box-blanc-225l/07216708.html,https://cdn.carrefour.eu/420_07216708_M1_20250514.webp,White,Box,3.6
+Prieuré Saint Hippolyte Languedoc Rouge 75cl,7.49,https://www.carrefour.be/fr/prieure-saint-hippolyte-languedoc-rouge-75cl/04018994.html,https://cdn.carrefour.eu/420_04018996_M1_20250813.webp,Red,75cl,3.5
+Valvirginio Chianti Riserva Rouge 75CL,9.99,https://www.carrefour.be/fr/valvirginio-chianti-riserva-rouge-75cl/07191644.html,https://cdn.carrefour.eu/420_07191644_main_20250225_01_PM.webp,Red,75cl,3.8
+Vin désalcoolisé Chardonnay Blanc 20cl,2.15,https://www.carrefour.be/fr/vin-desalcoolise-chardonnay-blanc-20cl/05417617.html,https://cdn.carrefour.eu/420_05417617_M1_20250722.webp,White,Other,3.6
+D.O. Leyda Sauvignon Blanc 75cl,6.99,https://www.carrefour.be/fr/d.o.-leyda-sauvignon-blanc-75cl/07245662.html,https://cdn.carrefour.eu/420_07245662_M1_20250514.webp,White,75cl,3.5
+Alsace Famille Cattin Pinot Noir Bio Rouge 75cl,8.99,https://www.carrefour.be/fr/alsace-famille-cattin-pinot-noir-bio-rouge-75cl/06579720.html,https://cdn.carrefour.eu/420_06579720.webp,Red,75cl,3.7
+Cabernet Sauvignon 37.5 cl,3.99,https://www.carrefour.be/fr/cabernet-sauvignon-37.5-cl/01507113.html,https://cdn.carrefour.eu/420_01507113_T1.webp,Red,Other,3.5
+Lalande-de-Pomerol La Croix des Ormes Rouge 75cl,10.99,https://www.carrefour.be/fr/lalande-de-pomerol-la-croix-des-ormes-rouge-75cl/05237647.html,https://cdn.carrefour.eu/420_05237647_T1.webp,Red,75cl,3.4
+Galatheo Vino Rosso 0.75 L,3.99,https://www.carrefour.be/fr/galatheo-vino-rosso-0.75-l/06652449.html,https://cdn.carrefour.eu/420_06652449_T1.webp,Red,Other,
+Bordeaux Blanc Demi-Sec 750 ml,6.19,https://www.carrefour.be/fr/bordeaux-blanc-demi-sec-750-ml/00161338.html,https://cdn.carrefour.eu/420_00161338_T1.webp,White,Other,3.6
+Grand Sud Chardonnay 6x1L,41.94,https://www.carrefour.be/fr/grand-sud-chardonnay-6x1l/04584566.html,https://cdn.carrefour.eu/420_04584566_T1.webp,White,Other,3.3
+Alsace Jean Murbach Pinot Blanc 375ml,4.99,https://www.carrefour.be/fr/alsace-jean-murbach-pinot-blanc-375ml/07123260.html,https://cdn.carrefour.eu/420_07123260_M1_20241113.webp,White,Other,3.5
+La Villageoise Vin Blanc Sec 6 x 25 cl,9.99,https://www.carrefour.be/fr/la-villageoise-vin-blanc-sec-6-x-25-cl/04939649.html,https://cdn.carrefour.eu/420_04939649_T1.webp,White,25cl,
+Talamanca Chardonnay Blanc 37.5 cl,3.99,https://www.carrefour.be/fr/talamanca-chardonnay-blanc-37.5-cl/07155924.html,https://cdn.carrefour.eu/420_07155924_T1.webp,White,Other,3.7
+Mediterranée Rosé 75cl,4.99,https://www.carrefour.be/fr/mediterranee-rose-75cl/05871728.html,https://cdn.carrefour.eu/420_05871728_M1_20210809.webp,Rosé,75cl,4.0
+La Cave d'Augustin Florent Vin de Bordeaux 75 cl,4.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-vin-de-bordeaux-75-cl/05747632.html,https://cdn.carrefour.eu/420_05747632_T1.webp,Red,75cl,3.3
+Bourgogne Pinot Noir Caves d'Augustin Florent Rouge 75cl,14.99,https://www.carrefour.be/fr/bourgogne-pinot-noir-caves-daugustin-florent-rouge-75cl/04401364.html,https://cdn.carrefour.eu/420_04401364_T1.webp,Red,75cl,3.3
+Curiosité M Merlot Rouge 75cl,5.99,https://www.carrefour.be/fr/curiosite-m-merlot-rouge-75cl/07104395.html,https://cdn.carrefour.eu/420_07104395_M1_20240628.webp,Red,75cl,
+Pico Andino Chardonnay Blanc 3L,11.99,https://www.carrefour.be/fr/pico-andino-chardonnay-blanc-3l/07034348.html,https://cdn.carrefour.eu/420_07034348_M1_20231211.webp,White,Box,3.5
+Plantaranas Tempranillo Rouge Bio 75cl,7.99,https://www.carrefour.be/fr/plantaranas-tempranillo-rouge-bio-75cl/07248713.html,https://cdn.carrefour.eu/420_07248713_M1_20250514.webp,Red,75cl,3.8
+Pico Andino Merlot,3.99,https://www.carrefour.be/fr/pico-andino-merlot/06899691.html,https://cdn.carrefour.eu/420_06899691_M1_20220909.webp,Red,Other,3.4
+Ramón Bilbao Crianza Rouge 75cl,9.99,https://www.carrefour.be/fr/ram%C3%B3n-bilbao-crianza-rouge-75cl/07236334.html,https://cdn.carrefour.eu/420_07236334_T1.webp,Red,75cl,3.9
+Masso Antico Negroamaro Rouge 75cl,7.99,https://www.carrefour.be/fr/masso-antico-negroamaro-rouge-75cl/06835966.html,https://cdn.carrefour.eu/420_06835966_T1.webp,Red,75cl,3.9
+Trapiche Oak Cask Chardonnay Blanc 75 cl,7.99,https://www.carrefour.be/fr/trapiche-oak-cask-chardonnay-blanc-75-cl/04399137.html,https://cdn.carrefour.eu/420_04399137_T1.webp,White,75cl,3.6
+Victoria 19 Crimes Rouge 75cl,9.49,https://www.carrefour.be/fr/victoria-19-crimes-rouge-75cl/05742545.html,https://cdn.carrefour.eu/420_05742545_T01.webp,Red,75cl,4.0
+Jp. Chenet sans alcool Rosé 75cl,6.19,https://www.carrefour.be/fr/jp.-chenet-sans-alcool-rose-75cl/07096995.html,https://cdn.carrefour.eu/420_07096995_M1_20240514.webp,Rosé,75cl,
+Bordeaux Mouton Cadet Blanc 75cl,8.99,https://www.carrefour.be/fr/bordeaux-mouton-cadet-blanc-75cl/07001069.html,https://cdn.carrefour.eu/420_07001069_M1_20231127.webp,White,75cl,3.4
+Bordeaux Entre-Deux-Mers Château Chauvelet Blanc 75cl,6.99,https://www.carrefour.be/fr/bordeaux-entre-deux-mers-chateau-chauvelet-blanc-75cl/06474559.html,https://cdn.carrefour.eu/420_06474559_M1_20210628.webp,White,75cl,3.8
+Merlot Sans Alcool 0.0% Bio Organic Rouge 75cl,5.99,https://www.carrefour.be/fr/merlot-sans-alcool-0.0-bio-organic-rouge-75cl/06238637.html,https://cdn.carrefour.eu/420_06238637_T1.webp,Red,75cl,
+Valencia Utiel-Requena Pena Tejo Rouge,4.99,https://www.carrefour.be/fr/valencia-utiel-requena-pena-tejo-rouge/06574307.html,https://cdn.carrefour.eu/420_06574307.webp,Red,Other,3.4
+Petit Chablis Victor Blachet Blanc 75cl,12.99,https://www.carrefour.be/fr/petit-chablis-victor-blachet-blanc-75cl/07141616.html,https://cdn.carrefour.eu/420_07141616_M1_20240917.webp,White,75cl,4.0
+Australie Shiraz 75cl,6.99,https://www.carrefour.be/fr/australie-shiraz-75cl/04823688.html,https://cdn.carrefour.eu/420_04823688_T1.webp,Red,75cl,3.5
+Reflets de Château Belair Saint-Georges Rouge 75cl,9.99,https://www.carrefour.be/fr/reflets-de-chateau-belair-saint-georges-rouge-75cl/07110993.html,https://cdn.carrefour.eu/420_07110993_main_20240624_01_PM.webp,Red,75cl,3.4
+A Fleur de Roche Pouilly Fuissé Héritage de Calcaire Blanc 75cl,19.99,https://www.carrefour.be/fr/a-fleur-de-roche-pouilly-fuisse-heritage-de-calcaire-blanc-75cl/06717643.html,https://cdn.carrefour.eu/420_06717643_M1_20230906.webp,White,75cl,4.0
+Maison Johanès Boubée Grand Moment Bordeaux 75 cl,6.99,https://www.carrefour.be/fr/maison-johanes-boubee-grand-moment-bordeaux-75-cl/04644411.html,https://cdn.carrefour.eu/420_04644411_T1.webp,Red,75cl,
+Vintense Sauvignon Sans Alcool Blanc 75cl,6.19,https://www.carrefour.be/fr/vintense-sauvignon-sans-alcool-blanc-75cl/05794926.html,https://cdn.carrefour.eu/420_05794926_M1_20240930.webp,White,75cl,
+La Cave d'Augustin Florent Côtes de Bourg Rouge 75cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-cotes-de-bourg-rouge-75cl/04404846.html,https://cdn.carrefour.eu/420_04404846_T1.webp,Red,75cl,3.2
+Terras de Xisto Reserva Rouge 750 ml,6.49,https://www.carrefour.be/fr/terras-de-xisto-reserva-rouge-750-ml/06857721.html,https://cdn.carrefour.eu/420_06857721_T1.webp,Red,Other,3.1
+Côtes du Rhône Cellier des Dauphins Prestige 75cl,6.09,https://www.carrefour.be/fr/cotes-du-rhone-cellier-des-dauphins-prestige-75cl/01217792.html,https://cdn.carrefour.eu/420_01217792_T01.webp,Red,75cl,3.4
+Marqués de Cáceres Rioja Reserva Rouge 75 cl,15.99,https://www.carrefour.be/fr/marques-de-caceres-rioja-reserva-rouge-75-cl/01063529.html,https://cdn.carrefour.eu/420_01063529_T1.webp,Red,75cl,3.9
+Rosé de Loire Cave d'Augustin Florent Rosé 75cl,5.99,https://www.carrefour.be/fr/rose-de-loire-cave-daugustin-florent-rose-75cl/04811203.html,https://cdn.carrefour.eu/420_04811203_M1_20240205.webp,Rosé,75cl,3.3
+Jerom Winery Chardonnay Vin Belge Blanc 75cl,9.99,https://www.carrefour.be/fr/jerom-winery-chardonnay-vin-belge-blanc-75cl/06226214.html,https://cdn.carrefour.eu/420_06226214_M1_20230203.webp,White,75cl,3.6
+Loire Bourgueil Cave d'Augustin Florent Rouge,6.29,https://www.carrefour.be/fr/loire-bourgueil-cave-daugustin-florent-rouge/05017068.html,https://cdn.carrefour.eu/420_05017068_T1.webp,Red,Other,3.3
+Stony Cape Ruby Cabernet Cinsault 37.5 cl,3.99,https://www.carrefour.be/fr/stony-cape-ruby-cabernet-cinsault-37.5-cl/05440553.html,https://cdn.carrefour.eu/420_05440553_T1.webp,Red,Other,3.0
+Marqués de Cáceres Rioja Crianza 37.5 cl,4.99,https://www.carrefour.be/fr/marques-de-caceres-rioja-crianza-37.5-cl/01507167.html,https://cdn.carrefour.eu/420_01507167_T1.webp,Red,Other,3.7
+Sunset Creek Zinfandel 75 cl,4.99,https://www.carrefour.be/fr/sunset-creek-zinfandel-75-cl/07015711.html,https://cdn.carrefour.eu/420_07015711_T1.webp,Red,75cl,3.8
+Bordeaux Mission St-Vincent Bag in Box,16.99,https://www.carrefour.be/fr/bordeaux-mission-st-vincent-bag-in-box/06483902.html,https://cdn.carrefour.eu/420_06483902.webp,Red,Box,3.7
+Bordeaux Graves La Cave d'Augustin Florent Rouge 75cl,6.99,https://www.carrefour.be/fr/bordeaux-graves-la-cave-daugustin-florent-rouge-75cl/04647816.html,https://cdn.carrefour.eu/420_04647816_T1.webp,Red,75cl,3.6
+Pousio Selection Blanc 750 ml,6.99,https://www.carrefour.be/fr/pousio-selection-blanc-750-ml/06202116.html,https://cdn.carrefour.eu/420_06202116_T1.webp,White,Other,3.9
+Sicile Nero d'Avola Natale Verga Organic bio Rouge 75cl,6.99,https://www.carrefour.be/fr/sicile-nero-davola-natale-verga-organic-bio-rouge-75cl/05906673.html,https://cdn.carrefour.eu/420_05906673_T1.webp,Red,75cl,3.5
+Alsace Famille Cattin Naturalité Pinot Blanc bio 75cl,7.99,https://www.carrefour.be/fr/alsace-famille-cattin-naturalite-pinot-blanc-bio-75cl/06233129.html,https://cdn.carrefour.eu/420_06233129_T01.webp,White,75cl,3.5
+Toscane Rosso di Montalcino Piccini Villa Cortille Rouge 75cl,12.99,https://www.carrefour.be/fr/toscane-rosso-di-montalcino-piccini-villa-cortille-rouge-75cl/05496612.html,https://cdn.carrefour.eu/420_05496612_T1.webp,Red,75cl,3.7
+Pico Andino Carmenere Rouge 75cl,3.99,https://www.carrefour.be/fr/pico-andino-carmenere-rouge-75cl/07032172.html,https://cdn.carrefour.eu/420_07032172_M1_20231226.webp,Red,75cl,3.5
+Pavillon de la Palud Beaujolais Villages Nouveau 75cl,6.49,https://www.carrefour.be/fr/pavillon-de-la-palud-beaujolais-villages-nouveau-75cl/04775473.html,https://cdn.carrefour.eu/420_04775473_M1_20231005.webp,Red,75cl,3.2
+Cabernet Sauvignon Rouge 75cl,6.69,https://www.carrefour.be/fr/cabernet-sauvignon-rouge-75cl/01319185.html,https://cdn.carrefour.eu/420_01319185_T1.webp,Red,75cl,3.2
+Moselle Domaines Vinsmoselle Pinot Blanc 75cl,5.99,https://www.carrefour.be/fr/moselle-domaines-vinsmoselle-pinot-blanc-75cl/00665311.html,https://cdn.carrefour.eu/420_00665311_M1_20251114.webp,White,75cl,3.5
+San Pedro Chardonnay Blanc 75cl,6.69,https://www.carrefour.be/fr/san-pedro-chardonnay-blanc-75cl/05119154.html,https://cdn.carrefour.eu/420_05119154_T1.webp,White,75cl,
+États -Unis Californie Gallo Cabernet Sauvignon 6x75cl,47.94,https://www.carrefour.be/fr/etats--unis-californie-gallo-cabernet-sauvignon-6x75cl/01158879.html,https://cdn.carrefour.eu/420_01158879_M1_20220810.webp,Red,75cl,
+Côte du Rhône Cuvee Reservée Rouge 75cl,5.69,https://www.carrefour.be/fr/cote-du-rhone-cuvee-reservee-rouge-75cl/00161523.html,https://cdn.carrefour.eu/420_00161523_M1_20210902.webp,Red,75cl,3.3
+Naterra Bio Rosé 75cl,4.99,https://www.carrefour.be/fr/naterra-bio-rose-75cl/06190646.html,https://cdn.carrefour.eu/420_06190646.webp,Rosé,75cl,3.6
+Loire Sancerre Domaine Curot Blanc 75cl,20.99,https://www.carrefour.be/fr/loire-sancerre-domaine-curot-blanc-75cl/05957128.html,https://cdn.carrefour.eu/420_05957128.webp,White,75cl,3.9
+Vignerons de l'Enclave Côtes du Rhône Rouge 75cl,6.99,https://www.carrefour.be/fr/vignerons-de-lenclave-cotes-du-rhone-rouge-75cl/05581663.html,https://cdn.carrefour.eu/420_05581663_T1.webp,Red,75cl,3.5
+Côtes du Rhône by Vermeersch Blanc 75cl,7.49,https://www.carrefour.be/fr/cotes-du-rhone-by-vermeersch-blanc-75cl/05599551.html,https://cdn.carrefour.eu/420_05599551_M1_20210519.webp,White,75cl,3.5
+La Cave d'Augustin Florent Sauternes 75 cl,13.79,https://www.carrefour.be/fr/la-cave-daugustin-florent-sauternes-75-cl/04405742.html,https://cdn.carrefour.eu/420_04405742_T1.webp,White,75cl,3.8
+Memoro Piccini Rouge 375ml,4.99,https://www.carrefour.be/fr/memoro-piccini-rouge-375ml/07101209.html,https://cdn.carrefour.eu/420_07101209_M1_20241112.webp,Red,Other,3.8
+"Jacob's Creek Classic Shiraz Cabernet Australia 37,5 cl",5.99,https://www.carrefour.be/fr/jacobs-creek-classic-shiraz-cabernet-australia-375-cl/01479534.html,https://cdn.carrefour.eu/420_01479534_ZST_003_10000000000217311.webp,Red,Other,3.4
+Sangre de Toro 0% alcool Rouge 75cl,5.99,https://www.carrefour.be/fr/sangre-de-toro-0-alcool-rouge-75cl/06238006.html,https://cdn.carrefour.eu/420_21693134_main_avant_BP.webp,Red,75cl,2.7
+Long Tail Premium Cabernet Sauvignon 75cl,5.99,https://www.carrefour.be/fr/long-tail-premium-cabernet-sauvignon-75cl/06899441.html,https://cdn.carrefour.eu/420_06899441_T1.webp,Red,75cl,
+Ormarine Picpoul de Pinet Blanc 75cl,7.99,https://www.carrefour.be/fr/ormarine-picpoul-de-pinet-blanc-75cl/04803549.html,https://cdn.carrefour.eu/420_04803549_T1.webp,White,75cl,3.7
+La Cave d'Augustin Florent Médoc 75 cl,6.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-medoc-75-cl/01651816.html,https://cdn.carrefour.eu/420_01651816_T1.webp,Red,75cl,3.2
+Château Tour Prignac Médoc Cru Bourgeois Rouge 75cl,10.99,https://www.carrefour.be/fr/chateau-tour-prignac-medoc-cru-bourgeois-rouge-75cl/05092995.html,https://cdn.carrefour.eu/420_05092995_M1_20210625.webp,Red,75cl,3.8
+Cambras Merlot cabernet Sauvignon 75 cl,4.99,https://www.carrefour.be/fr/cambras-merlot-cabernet-sauvignon-75-cl/05104841.html,https://cdn.carrefour.eu/420_05104841_T1.webp,Red,75cl,3.6
+Periquita Azeitão Blanc 75cl,5.99,https://www.carrefour.be/fr/periquita-azeitao-blanc-75cl/07179093.html,https://cdn.carrefour.eu/420_07179093_T1.webp,White,75cl,3.9
+Mosel Trocken Peter & Peter Weissburgunder Pinot Blanc 75 cl,6.99,https://www.carrefour.be/fr/mosel-trocken-peter-and-peter-weissburgunder-pinot-blanc-75-cl/06319270.html,https://cdn.carrefour.eu/420_06319270_T1.webp,White,75cl,
+La Cave d'Augustin Florent Côtes de Provence 75 cl,7.49,https://www.carrefour.be/fr/la-cave-daugustin-florent-cotes-de-provence-75-cl/01651630.html,https://cdn.carrefour.eu/420_01651630_T1.webp,Rosé,75cl,3.3
+Mirabeau Classic Rosé 75 cl,13.99,https://www.carrefour.be/fr/mirabeau-classic-rose-75-cl/06868404.html,https://cdn.carrefour.eu/420_06868404_M19_20250307.webp,Rosé,75cl,3.8
+J.P. Chenet Colombard-Sauvignon 750 ml,5.99,https://www.carrefour.be/fr/j.p.-chenet-colombard-sauvignon-750-ml/04834442.html,https://cdn.carrefour.eu/420_04834442_T1.webp,White,Other,3.5
+Les Celliers des Terres de Cuvée Réservée Côtes du Rhône Rouge,4.09,https://www.carrefour.be/fr/les-celliers-des-terres-de-cuvee-reservee-cotes-du-rhone-rouge/04025511.html,https://cdn.carrefour.eu/420_04025511_T1.webp,Red,Other,3.3
+Bourgogne Mâcon Naurouze Moillard Rouge 75cl,10.99,https://www.carrefour.be/fr/bourgogne-macon-naurouze-moillard-rouge-75cl/06453882.html,https://cdn.carrefour.eu/420_06453882_T1.webp,Red,75cl,3.5
+Merlot Rouge 75cl,6.69,https://www.carrefour.be/fr/merlot-rouge-75cl/01424198.html,https://cdn.carrefour.eu/420_01424198_T1.webp,Red,75cl,3.2
+7 Muri Chardonnay Valdadige Blanc 75cl,9.99,https://www.carrefour.be/fr/7-muri-chardonnay-valdadige-blanc-75cl/07173369.html,https://cdn.carrefour.eu/420_07173369_main_20241226_01_PM.webp,White,75cl,
+Bourgueil Signature Bio Rouge 75cl,7.99,https://www.carrefour.be/fr/bourgueil-signature-bio-rouge-75cl/06655974.html,https://cdn.carrefour.eu/420_06655974_main_20220818_01_PM.webp,Red,75cl,3.8
+Bordeaux Supérieur Château De L'Orangerie Rouge 75cl,7.49,https://www.carrefour.be/fr/bordeaux-superieur-chateau-de-lorangerie-rouge-75cl/07223928.html,https://cdn.carrefour.eu/420_07223928_M1_20250304.webp,Red,75cl,3.3
+Languedoc Prieuré Saint Hippolyte Rosé 75cl,7.49,https://www.carrefour.be/fr/languedoc-prieure-saint-hippolyte-rose-75cl/04018957.html,https://cdn.carrefour.eu/420_04018958_M1_20250813.webp,Rosé,75cl,3.6
+La Cave d'Augustin Florent Sauternes 37.5 cl,8.69,https://www.carrefour.be/fr/la-cave-daugustin-florent-sauternes-37.5-cl/04405426.html,https://cdn.carrefour.eu/420_04405426_T1.webp,White,Other,3.5
+Harmonie By Harmas Côtes du Rhône 750 ml,7.99,https://www.carrefour.be/fr/harmonie-by-harmas-cotes-du-rhone-750-ml/05553151.html,https://cdn.carrefour.eu/420_05553151_T1.webp,Red,Other,3.7
+"Vintense bag in box Sober Blanc 2L 0,0%",13.99,https://www.carrefour.be/fr/vintense-bag-in-box-sober-blanc-2l-00/07111309.html,https://cdn.carrefour.eu/420_07111309_M1_20240514.webp,White,Box,3.8
+JP. Chenet Original Cabernet-Syrah 750 ml,5.99,https://www.carrefour.be/fr/jp.-chenet-original-cabernet-syrah-750-ml/01504326.html,https://cdn.carrefour.eu/420_01504326_T1.webp,Red,Other,3.4
+Bourgogne Mâcon Naudin Pére & Fils Rouge 75cl,10.99,https://www.carrefour.be/fr/bourgogne-macon-naudin-pere-and-fils-rouge-75cl/06491277.html,https://cdn.carrefour.eu/420_06491277_M1_20210809.webp,Red,75cl,3.8
+La Cave d'Augustin Florent Fitou 75 cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-fitou-75-cl/04411175.html,https://cdn.carrefour.eu/420_04411175_T1.webp,Red,75cl,3.4
+Signature de Loire Reuilly ,11.99,https://www.carrefour.be/fr/signature-de-loire-reuilly-/06317310.html,https://cdn.carrefour.eu/420_06317310.webp,White,Other,3.8
+Sunset Creek Cabernet Sauvignon 37.5 cl,3.99,https://www.carrefour.be/fr/sunset-creek-cabernet-sauvignon-37.5-cl/05029805.html,https://cdn.carrefour.eu/420_05029805_T1.webp,Red,Other,3.8
+Lagosta Verde Blanc 75cl,6.99,https://www.carrefour.be/fr/lagosta-verde-blanc-75cl/07179208.html,https://cdn.carrefour.eu/420_07179208_M1_20250509.webp,White,75cl,4.0
+Moulins de Citran Haut-Medoc Rouge 75cl,13.99,https://www.carrefour.be/fr/moulins-de-citran-haut-medoc-rouge-75cl/07190506.html,https://cdn.carrefour.eu/420_07190506_M1_20250514.webp,Red,75cl,3.8
+Pico Andino Sauvignon Blanc 75cl,3.99,https://www.carrefour.be/fr/pico-andino-sauvignon-blanc-75cl/06888041.html,https://cdn.carrefour.eu/420_06888041_M1_20220901.webp,White,75cl,3.6
+Ribera del Duero Portia Crianza 75cl,9.99,https://www.carrefour.be/fr/ribera-del-duero-portia-crianza-75cl/05480909.html,https://cdn.carrefour.eu/420_05480909_T1.webp,Red,75cl,3.9
+Bio Negroamaro 0.75 L,8.99,https://www.carrefour.be/fr/bio-negroamaro-0.75-l/06059551.html,https://cdn.carrefour.eu/420_06059551_T1.webp,Red,Other,3.5
+Sicile Epicentro Nero d'Avola Riserva Rouge 75cl,9.99,https://www.carrefour.be/fr/sicile-epicentro-nero-davola-riserva-rouge-75cl/06570935.html,https://cdn.carrefour.eu/420_06570935.webp,Red,75cl,3.9
+Fendant Roche Vineuse 75 cl,15.99,https://www.carrefour.be/fr/fendant-roche-vineuse-75-cl/00162829.html,https://cdn.carrefour.eu/420_00162829_T1.webp,White,75cl,3.4
+Galatheo Vino Bianco 0.75 L,3.99,https://www.carrefour.be/fr/galatheo-vino-bianco-0.75-l/06653338.html,https://cdn.carrefour.eu/420_06653338_T1.webp,White,Other,
+Grappe d'Or Vin Blanc Sec 150cl,6.09,https://www.carrefour.be/fr/grappe-dor-vin-blanc-sec-150cl/00997594.html,https://cdn.carrefour.eu/420_00997594_T1.webp,White,Other,1.9
+Villa Molino D.O.C Bardolino Rouge 75cl,5.99,https://www.carrefour.be/fr/villa-molino-d.o.c-bardolino-rouge-75cl/06998527.html,https://cdn.carrefour.eu/420_06998527_main_20230822_01_PM.webp,Red,75cl,3.2
+Mission St Vincent Bordeaux 3L,16.99,https://www.carrefour.be/fr/mission-st-vincent-bordeaux-3l/06483907.html,https://cdn.carrefour.eu/420_06483907_SAP_10000000000264289.webp,Red,Box,3.6
+Lisbonne Pica Pau Reserva Rouge 75cl,6.99,https://www.carrefour.be/fr/lisbonne-pica-pau-reserva-rouge-75cl/06840446.html,https://cdn.carrefour.eu/420_06840446_T1.webp,Red,75cl,3.9
+Marqués de Cáceres Rioja Crianza 6x75cl,59.94,https://www.carrefour.be/fr/marques-de-caceres-rioja-crianza-6x75cl/01107649.html,https://cdn.carrefour.eu/420_01107649_M1_20220809.webp,Red,75cl,3.7
+Beaujolais Nouveau Rouge 75cl,4.99,https://www.carrefour.be/fr/beaujolais-nouveau-rouge-75cl/04775509.html,https://cdn.carrefour.eu/420_04775509_M1_20231005.webp,Red,75cl,3.1
+Jacob's Creek Classic Pinot Grigio Blanc 75cl,8.49,https://www.carrefour.be/fr/jacobs-creek-classic-pinot-grigio-blanc-75cl/06481677.html,https://cdn.carrefour.eu/420_06481677.webp,White,75cl,3.4
+Chablis Magnum AOC Blanc 1.5L,29.99,https://www.carrefour.be/fr/chablis-magnum-aoc-blanc-1.5l/07248739.html,https://cdn.carrefour.eu/420_07248739_M1_20250514.webp,White,Other,3.8
+Blanco Chardonnay 75 cl,7.99,https://www.carrefour.be/fr/blanco-chardonnay-75-cl/06198195.html,https://cdn.carrefour.eu/420_06198195_T1.webp,White,75cl,3.6
+Moselle Domaines Vinsmoselle Pinot Gris Blanc 75cl,6.99,https://www.carrefour.be/fr/moselle-domaines-vinsmoselle-pinot-gris-blanc-75cl/01334059.html,https://cdn.carrefour.eu/420_01334059_M1_20251114.webp,White,75cl,3.5
+Frace Pessac-Légnan Château de Cruzeau Blanc 75cl,14.99,https://www.carrefour.be/fr/frace-pessac-legnan-chateau-de-cruzeau-blanc-75cl/07075842.html,https://cdn.carrefour.eu/420_07075842_M1_20240906.webp,White,75cl,3.8
+Bourgogne Rully Domaine Marguerite Dupasquier Wit 75cl,14.99,https://www.carrefour.be/fr/bourgogne-rully-domaine-marguerite-dupasquier-wit-75cl/06581395.html,https://cdn.carrefour.eu/420_06581395_T1.webp,White,75cl,3.8
+La Cave d'Augustin Florent Beaujolais Rouge 75 cl,5.49,https://www.carrefour.be/fr/la-cave-daugustin-florent-beaujolais-rouge-75-cl/04776292.html,https://cdn.carrefour.eu/420_04776292_M1_20251104.webp,Red,75cl,3.1
+Bag in Box Domaine Lalande Sauvignon Blanc 3L,17.99,https://www.carrefour.be/fr/bag-in-box-domaine-lalande-sauvignon-blanc-3l/05289748.html,https://cdn.carrefour.eu/420_05289748.webp,White,Box,3.6
+Navarra Sabasan Crianza Rouge 75cl,3.99,https://www.carrefour.be/fr/navarra-sabasan-crianza-rouge-75cl/07156053.html,https://cdn.carrefour.eu/420_07156053_M1_20250203.webp,Red,75cl,3.0
+Cru Bourgeois Château Barreyres Haut-Médoc 75cl,13.99,https://www.carrefour.be/fr/cru-bourgeois-chateau-barreyres-haut-medoc-75cl/04810285.html,https://cdn.carrefour.eu/420_04810285_T1.webp,Red,75cl,3.8
+Quay Landing Shiraz 75 cl,4.99,https://www.carrefour.be/fr/quay-landing-shiraz-75-cl/04031362.html,https://cdn.carrefour.eu/420_04031362_T1.webp,Red,75cl,3.2
+Bordeaux Pessac-Léognan Les Clefs d'Argent de Léognan 75cl,11.59,https://www.carrefour.be/fr/bordeaux-pessac-leognan-les-clefs-dargent-de-leognan-75cl/06673733.html,https://cdn.carrefour.eu/420_06673733_M1_20210628.webp,Red,75cl,3.6
+Touraine Sauvignon Signature de Loire Blanc 75cl,8.99,https://www.carrefour.be/fr/touraine-sauvignon-signature-de-loire-blanc-75cl/06966074.html,https://cdn.carrefour.eu/420_06966074_main_20230322_01_PM.webp,White,75cl,3.9
+Le Pas du Templier Minervois 75cl,3.99,https://www.carrefour.be/fr/le-pas-du-templier-minervois-75cl/05862513.html,https://cdn.carrefour.eu/420_05862513_T1.webp,Red,75cl,3.1
+La Cave d'Augustin Florent Bergerac 75 cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-bergerac-75-cl/04411902.html,https://cdn.carrefour.eu/420_04411902_T1.webp,Red,75cl,3.4
+Valencia Utiel-Requena Pena Tejo Blanc 75 cl,4.99,https://www.carrefour.be/fr/valencia-utiel-requena-pena-tejo-blanc-75-cl/06574306.html,https://cdn.carrefour.eu/420_06574306_M1_20210105.webp,White,75cl,
+Cinsault Grenache Boulaouane Vin Gris 75cl,5.99,https://www.carrefour.be/fr/cinsault-grenache-boulaouane-vin-gris-75cl/01163285.html,https://cdn.carrefour.eu/420_01163285_T1.webp,Rosé,75cl,3.1
+Ventoux Vin Biologique 75 cl,5.99,https://www.carrefour.be/fr/ventoux-vin-biologique-75-cl/06758554.html,https://cdn.carrefour.eu/420_06758554_T1.webp,Red,75cl,
+Domaine Boyar Ethno Sauvignon Blanc 75 cl,4.99,https://www.carrefour.be/fr/domaine-boyar-ethno-sauvignon-blanc-75-cl/06648319.html,https://cdn.carrefour.eu/420_06648319_M1_20210823.webp,White,75cl,3.2
+Grain de Gris - Bio Sable de Camargue 75 cl,8.09,https://www.carrefour.be/fr/grain-de-gris---bio-sable-de-camargue-75-cl/06210683.html,https://cdn.carrefour.eu/420_06210683_T1.webp,Rosé,75cl,3.6
+La Cave d'Augustin Florent Beaujolais Villages Rouge 75 cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-beaujolais-villages-rouge-75-cl/04775160.html,https://cdn.carrefour.eu/420_04775160_M1_20231005.webp,Red,75cl,3.4
+Quinta Da Lapa Alvarinho Blanc 75 cl,7.99,https://www.carrefour.be/fr/quinta-da-lapa-alvarinho-blanc-75-cl/06791706.html,https://cdn.carrefour.eu/420_06791706_T1.webp,White,75cl,3.8
+Cépage Merlot Vin sans Alcool Rouge 20cl,2.15,https://www.carrefour.be/fr/cepage-merlot-vin-sans-alcool-rouge-20cl/05417730.html,https://cdn.carrefour.eu/420_05417730_M1_20250722.webp,Red,Other,
+Château Le Grand Verdus Bordeaux Supérieur 375 ml,4.99,https://www.carrefour.be/fr/chateau-le-grand-verdus-bordeaux-superieur-375-ml/05202877.html,https://cdn.carrefour.eu/420_05202877_T1.webp,Red,Other,3.5
+Quintana Malbec Rood 75cl,5.99,https://www.carrefour.be/fr/quintana-malbec-rood-75cl/07034318.html,https://cdn.carrefour.eu/420_07034318_main_20231218_01_PM.webp,Red,75cl,3.1
+Etas-Unis d'Amerique Green Forest Chardonnay Blanc 75cl,4.99,https://www.carrefour.be/fr/etas-unis-damerique-green-forest-chardonnay-blanc-75cl/04031494.html,https://cdn.carrefour.eu/420_04031494_T1.webp,White,75cl,
+Martina Vermentino Toscana Piccini Rosé 75cl,9.99,https://www.carrefour.be/fr/martina-vermentino-toscana-piccini-rose-75cl/07224542.html,https://cdn.carrefour.eu/420_07224542_M1_20250514.webp,Rosé,75cl,3.8
+Coteaux d'Aix-en-Provence Garrigue Rosé Bio 75cl,8.49,https://www.carrefour.be/fr/coteaux-daix-en-provence-garrigue-rose-bio-75cl/06675891.html,https://cdn.carrefour.eu/420_06675891_M1_20220927.webp,Rosé,75cl,3.9
+Santa Rita 120 Reserva Especial Chardonnay 375 ml,3.99,https://www.carrefour.be/fr/santa-rita-120-reserva-especial-chardonnay-375-ml/01507060.html,https://cdn.carrefour.eu/420_01507060_T1.webp,White,Other,3.3
+Alsace Louis Engler Pinot Blanc 75cl,8.99,https://www.carrefour.be/fr/alsace-louis-engler-pinot-blanc-75cl/07094138.html,https://cdn.carrefour.eu/420_07094138_M1_20240703.webp,White,75cl,3.6
+La Cave d'Augustin Florent Cahors 75 cl,4.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-cahors-75-cl/04011003.html,https://cdn.carrefour.eu/420_04011003_T1.webp,Red,75cl,3.4
+Beaujolais Des Pierres Dorées Chardonnay Blanc 75cl,9.99,https://www.carrefour.be/fr/beaujolais-des-pierres-dorees-chardonnay-blanc-75cl/07015910.html,https://cdn.carrefour.eu/420_07015910_M1_20231226.webp,White,75cl,
+IGP Puglia Primitivo Nostre Terre Rouge 75cl,7.99,https://www.carrefour.be/fr/igp-puglia-primitivo-nostre-terre-rouge-75cl/06997321.html,https://cdn.carrefour.eu/420_06997321_M1_20240125.webp,Red,75cl,3.5
+JP. Chenet Chardonnay Vin sans Alcool Blanc 75cl,6.19,https://www.carrefour.be/fr/jp.-chenet-chardonnay-vin-sans-alcool-blanc-75cl/07096990.html,https://cdn.carrefour.eu/420_07096990_M1_20240514.webp,White,75cl,
+Château Le Grand Verdus Réserve Bordeaux Supérieur 6x75cl,53.94,https://www.carrefour.be/fr/chateau-le-grand-verdus-reserve-bordeaux-superieur-6x75cl/05071324.html,https://cdn.carrefour.eu/420_05071324_T1.webp,Red,75cl,4.0
+Australie Cabernet Sauvignon 75cl,6.99,https://www.carrefour.be/fr/australie-cabernet-sauvignon-75cl/04921470.html,https://cdn.carrefour.eu/420_04921470_T1.webp,Red,75cl,3.5
+Pecorino Spinelli Val di Fara Blanc 75cl,4.99,https://www.carrefour.be/fr/pecorino-spinelli-val-di-fara-blanc-75cl/06981148.html,https://cdn.carrefour.eu/420_06981148_M1_20230714.webp,White,75cl,3.2
+Polkadraai Sauvignon Blanc Chenin Blanc 75cl,8.49,https://www.carrefour.be/fr/polkadraai-sauvignon-blanc-chenin-blanc-75cl/05875747.html,https://cdn.carrefour.eu/420_05875747_T1.webp,White,75cl,3.5
+Naterra bio 75cl,4.99,https://www.carrefour.be/fr/naterra-bio-75cl/06207808.html,https://cdn.carrefour.eu/420_06207808_T01.webp,Red,75cl,3.4
+Château Picon Bordeaux supérieur Rouge 75cl,6.99,https://www.carrefour.be/fr/chateau-picon-bordeaux-superieur-rouge-75cl/04963251.html,https://cdn.carrefour.eu/420_04963251_T1.webp,Red,75cl,3.5
+Jurançon Cuvée du Baptême,9.49,https://www.carrefour.be/fr/jurancon-cuvee-du-bapteme/04810267.html,https://cdn.carrefour.eu/420_04810267.webp,White,Other,3.8
+Stony Cape Chardonnay 37.5 cl,3.99,https://www.carrefour.be/fr/stony-cape-chardonnay-37.5-cl/05440554.html,https://cdn.carrefour.eu/420_05440554_T1.webp,White,Other,2.9
+Côtes de Provence 75 cl,9.99,https://www.carrefour.be/fr/cotes-de-provence-75-cl/06394681.html,https://cdn.carrefour.eu/420_06394681_T1.webp,Rosé,75cl,4.1
+Vintense Cabernet Sauvignon Sans Alcool 75cl,6.19,https://www.carrefour.be/fr/vintense-cabernet-sauvignon-sans-alcool-75cl/05794925.html,https://cdn.carrefour.eu/420_05794925_M1_20241214.webp,Red,75cl,2.0
+Languedoc Saint-Chinian-Roquebrun Terrasses de Maynard,9.99,https://www.carrefour.be/fr/languedoc-saint-chinian-roquebrun-terrasses-de-maynard/05593671.html,https://cdn.carrefour.eu/420_05593671_T1.webp,Red,Other,3.8
+Italie Medalla Real Reserva Chardonnay 75cl,8.99,https://www.carrefour.be/fr/italie-medalla-real-reserva-chardonnay-75cl/06615206.html,https://cdn.carrefour.eu/420_06615206_T1.webp,White,75cl,3.8
+Douro Eagle Blanc 75cl,7.99,https://www.carrefour.be/fr/douro-eagle-blanc-75cl/06961237.html,https://cdn.carrefour.eu/420_06961237_M1_20230703.webp,White,75cl,3.5
+Côtes du Rhône Primeur Rouge 75cl,2.99,https://www.carrefour.be/fr/cotes-du-rhone-primeur-rouge-75cl/04775104.html,https://cdn.carrefour.eu/420_04775104_M1_20251106.webp,Red,75cl,
+La Cave D'augustin Florent Montagny 75cl,11.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-montagny-75cl/06887639.html,https://cdn.carrefour.eu/420_06887639_M1_20220822.webp,White,75cl,3.5
+Bordeaux Mouton Cadet Rosé 75cl,8.99,https://www.carrefour.be/fr/bordeaux-mouton-cadet-rose-75cl/07001071.html,https://cdn.carrefour.eu/420_07001071_M1_20231127.webp,Rosé,75cl,3.4
+Xistus Rouge 75cl,3.99,https://www.carrefour.be/fr/xistus-rouge-75cl/07017025.html,https://cdn.carrefour.eu/420_07017025_M1_20231222.webp,Red,75cl,3.5
+Chardonnay Sans Alcool 0% Blanc 75cl,6.99,https://www.carrefour.be/fr/chardonnay-sans-alcool-0-blanc-75cl/07112200.html,https://cdn.carrefour.eu/420_07112200_M1_20240514.webp,White,75cl,
+SAUV. BL S/ALC 6X,37.14,https://www.carrefour.be/fr/sauv.-bl-s%2Falc-6x/05794143.html,https://cdn.carrefour.eu/420_05794143_M1_20220818.webp,White,Other,4.1
+Sayanca Chardonnay Blanc 75cl,7.99,https://www.carrefour.be/fr/sayanca-chardonnay-blanc-75cl/06857730.html,https://cdn.carrefour.eu/420_06857730_main_20220623_01_PM.webp,White,75cl,3.5
+Caliterra Reserva Carmenere Rouge 75cl,8.99,https://www.carrefour.be/fr/caliterra-reserva-carmenere-rouge-75cl/07110253.html,https://cdn.carrefour.eu/420_07110253_M1_20240514.webp,Red,75cl,3.8
+La Cave d'Augustin Florent Les pierrasques Côtes du Rhône 37.5 cl,2.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-les-pierrasques-cotes-du-rhone-37.5-cl/04404739.html,https://cdn.carrefour.eu/420_04404739_T1.webp,Red,Other,3.4
+Sauvignon Blanc Alcohol Free 75 cl,5.99,https://www.carrefour.be/fr/sauvignon-blanc-alcohol-free-75-cl/06449817.html,https://cdn.carrefour.eu/420_06449817_T1.webp,White,75cl,1.9
+Bordeaux Margaux Château Haut-Tayac l'Impératrice Rouge 75cl,17.99,https://www.carrefour.be/fr/bordeaux-margaux-chateau-haut-tayac-limperatrice-rouge-75cl/05276973.html,https://cdn.carrefour.eu/420_05276973_T1.webp,Red,75cl,3.8
+Poggio Scudieri Barolo Meditari Rouge 75cl,25.99,https://www.carrefour.be/fr/poggio-scudieri-barolo-meditari-rouge-75cl/07190781.html,https://cdn.carrefour.eu/420_07190781_M1_20250514.webp,Red,75cl,
+Talamanca Chile Chardonnay Blanc 75cl,6.99,https://www.carrefour.be/fr/talamanca-chile-chardonnay-blanc-75cl/07155925.html,https://cdn.carrefour.eu/420_07155925_T1.webp,White,75cl,3.4
+Piccini Vernaccia Di San Gimignano D.O.C Blanc 75cl,4.99,https://www.carrefour.be/fr/piccini-vernaccia-di-san-gimignano-d.o.c-blanc-75cl/05481380.html,https://cdn.carrefour.eu/420_05481380_M1_20250514.webp,White,75cl,3.3
+Laborie Impossible Red Rouge 75cl,8.99,https://www.carrefour.be/fr/laborie-impossible-red-rouge-75cl/07278268.html,https://cdn.carrefour.eu/420_07278268_M1_20251106.webp,Red,75cl,3.8
+Ribera Del Duero Viña Espolón Rouge 75cl,4.99,https://www.carrefour.be/fr/ribera-del-duero-vi%C3%B1a-espol%C3%B3n-rouge-75cl/07156051.html,https://cdn.carrefour.eu/420_07156051_M1_20241014.webp,Red,75cl,3.2
+Beaujolais Nouveau Rouge 75 cl,8.49,https://www.carrefour.be/fr/beaujolais-nouveau-rouge-75-cl/06519134.html,https://cdn.carrefour.eu/420_06519134_main_20211013_01_PM.webp,Red,75cl,3.1
+Bordeaux Château Reignac de Tizac Rouge 75cl,6.99,https://www.carrefour.be/fr/bordeaux-chateau-reignac-de-tizac-rouge-75cl/07043142.html,https://cdn.carrefour.eu/420_07043142_M1_20231204.webp,Red,75cl,3.7
+Namur Domaine Ry d'Argent Le Bon Goût des Belges Blanc 75cl,12.99,https://www.carrefour.be/fr/namur-domaine-ry-dargent-le-bon-gout-des-belges-blanc-75cl/06195773.html,https://cdn.carrefour.eu/420_06195773_T1.webp,White,75cl,3.3
+Château Montaud Côtes de Provence 375 ml,6.99,https://www.carrefour.be/fr/chateau-montaud-cotes-de-provence-375-ml/00967868.html,https://cdn.carrefour.eu/420_00967868_M1_20241219.webp,Rosé,Other,3.6
+Château de Gaudou Cahors Malbec - Merlot 75 cL,7.49,https://www.carrefour.be/fr/chateau-de-gaudou-cahors-malbec---merlot-75-cl/05610572.html,https://cdn.carrefour.eu/420_05610572_T1.webp,Red,75cl,4.0
+Baron de la Varière Anjou 750 ml,7.49,https://www.carrefour.be/fr/baron-de-la-variere-anjou-750-ml/04939822.html,https://cdn.carrefour.eu/420_04939822_T1.webp,White,Other,3.4
+Amicone Rouge 1.5 L,18.99,https://www.carrefour.be/fr/amicone-rouge-1.5-l/06232860.html,https://cdn.carrefour.eu/420_06232860_T1.webp,Red,Other,
+Jacob's Creek Classic Crisp Rosé 75cl,8.49,https://www.carrefour.be/fr/jacobs-creek-classic-crisp-rose-75cl/05934749.html,https://cdn.carrefour.eu/420_05934749_T01.webp,Rosé,75cl,3.6
+Famille Cattin Crément D'alsace Brut Rosé 75cl,11.99,https://www.carrefour.be/fr/famille-cattin-crement-dalsace-brut-rose-75cl/07104320.html,https://cdn.carrefour.eu/420_07104320_M1_20240704.webp,Rosé,75cl,
+Cuvée d'Automne Saint Joseph Blanc 75cl,15.99,https://www.carrefour.be/fr/cuvee-dautomne-saint-joseph-blanc-75cl/07108714.html,https://cdn.carrefour.eu/420_07108714_20240704_01_PM.webp,White,75cl,3.9
+Prieur de Meyney Saint-Estephe Rouge 75cl,23.99,https://www.carrefour.be/fr/prieur-de-meyney-saint-estephe-rouge-75cl/07190617.html,https://cdn.carrefour.eu/420_07190617_M1_20250514.webp,Red,75cl,3.9
+Cantine-Di-Ora Amicale Rouge 375ml,5.99,https://www.carrefour.be/fr/cantine-di-ora-amicale-rouge-375ml/07101211.html,https://cdn.carrefour.eu/420_07101211_M1_20241112.webp,Red,Other,
+Côtes du Rhône Primeur Rouge 75cl,2.99,https://www.carrefour.be/fr/cotes-du-rhone-primeur-rouge-75cl/04883787.html,https://cdn.carrefour.eu/420_04883787_M1_20251106.webp,Red,75cl,
+Rosé 75cl,6.69,https://www.carrefour.be/fr/rose-75cl/04389666.html,https://cdn.carrefour.eu/420_04389666_T1.webp,Rosé,75cl,4.1
+Jean Bouchard Mercurey Blanc 75 cl,21.99,https://www.carrefour.be/fr/jean-bouchard-mercurey-blanc-75-cl/05536367.html,https://cdn.carrefour.eu/420_05536367_T1.webp,White,75cl,3.8
+Sangre de Toro 0% Alcool Blanc 75 cl,5.99,https://www.carrefour.be/fr/sangre-de-toro-0-alcool-blanc-75-cl/06238060.html,https://cdn.carrefour.eu/420_21693421_main_avant_BP.webp,White,75cl,3.5
+San Pedro Syrah Rouge 75cl,6.69,https://www.carrefour.be/fr/san-pedro-syrah-rouge-75cl/04602034.html,https://cdn.carrefour.eu/420_04602034_T1.webp,Red,75cl,3.9
+ö-61 Red Blend Rood 75cl,9.99,https://www.carrefour.be/fr/o-61-red-blend-rood-75cl/07089182.html,https://cdn.carrefour.eu/420_07089182_M1_20240514.webp,Red,75cl,4.0
+Bourgogne Monthélie Camille Villard Rouge 75cl,24.99,https://www.carrefour.be/fr/bourgogne-monthelie-camille-villard-rouge-75cl/07190450.html,https://cdn.carrefour.eu/420_07190450_M1_20250514.webp,Red,75cl,3.9
+Jacob's Creek Classic Sémillon-Chardonnay Blanc 75cl,8.49,https://www.carrefour.be/fr/jacobs-creek-classic-semillon-chardonnay-blanc-75cl/04031635.html,https://cdn.carrefour.eu/420_04031635_T1.webp,White,75cl,3.3
+La Cave d'Augustin Florent Brouilly 75 cl,9.19,https://www.carrefour.be/fr/la-cave-daugustin-florent-brouilly-75-cl/05019187.html,https://cdn.carrefour.eu/420_05019187_T1.webp,Red,75cl,3.4
+Languedoc La Clape La Bergerie Château Saint-Pierre 75cl,9.99,https://www.carrefour.be/fr/languedoc-la-clape-la-bergerie-chateau-saint-pierre-75cl/06201399.html,https://cdn.carrefour.eu/420_06201399.webp,Red,75cl,3.6
+Closerie De Chantelauze Rouge 75cl,7.99,https://www.carrefour.be/fr/closerie-de-chantelauze-rouge-75cl/07109235.html,https://cdn.carrefour.eu/420_07109235_M1_20240514.webp,Red,75cl,4.1
+Bonfils Château Capitoul Rouge 75cl,10.99,https://www.carrefour.be/fr/bonfils-chateau-capitoul-rouge-75cl/07109248.html,https://cdn.carrefour.eu/420_07109248_M1_20240514.webp,Red,75cl,3.7
+Beaujolais Moulin à Vent Domaine AuCoeur Rouge 75cl,9.99,https://www.carrefour.be/fr/beaujolais-moulin-a-vent-domaine-aucoeur-rouge-75cl/05525440.html,https://cdn.carrefour.eu/420_05525440_T1.webp,Red,75cl,3.6
+Château Tour de Pez Saint-Estèphe Rouge 75cl,18.99,https://www.carrefour.be/fr/chateau-tour-de-pez-saint-estephe-rouge-75cl/06708311.html,https://cdn.carrefour.eu/420_21257175_main_avant_BP.webp,Red,75cl,4.3
+Moulin du Chateau La Lagune Rouge 75cl,21.99,https://www.carrefour.be/fr/moulin-du-chateau-la-lagune-rouge-75cl/07190584.html,https://cdn.carrefour.eu/420_07190584_M1_20250610.webp,Red,75cl,3.9
+Rueda Tie Sauvignon Blanc 75cl,3.99,https://www.carrefour.be/fr/rueda-tie-sauvignon-blanc-75cl/07155954.html,https://cdn.carrefour.eu/420_07155954_M1_20241015.webp,White,75cl,3.7
+Château Le Virou Blaye - Côtes de Bordeaux Blanc 750 ml,9.49,https://www.carrefour.be/fr/chateau-le-virou-blaye---cotes-de-bordeaux-blanc-750-ml/05749282.html,https://cdn.carrefour.eu/420_05749282_T1.webp,White,Other,3.7
+Marqués de Cáceres Ecológico Rioja 75 cl,7.99,https://www.carrefour.be/fr/marques-de-caceres-ecol%C3%B3gico-rioja-75-cl/06391160.html,https://cdn.carrefour.eu/420_06391160_T1.webp,Red,75cl,3.7
+Vallée du Rhône Vins sobres chateau Calvet rouge 75cl,9.99,https://www.carrefour.be/fr/vallee-du-rhone-vins-sobres-chateau-calvet-rouge-75cl/06874993.html,https://cdn.carrefour.eu/420_06874993_M1_20230807.webp,Red,75cl,
+Cancellus Premium Tinto 75 cl,7.99,https://www.carrefour.be/fr/cancellus-premium-tinto-75-cl/06865892.html,https://cdn.carrefour.eu/420_06865892_M1_20230310.webp,Red,75cl,3.8
+Saint-Nicolas de Bourgueil les Mélusines Rouge 75cl,7.99,https://www.carrefour.be/fr/saint-nicolas-de-bourgueil-les-melusines-rouge-75cl/05182961.html,https://cdn.carrefour.eu/420_05182961_T1.webp,Red,75cl,3.7
+San Andrea Rosato Vino 150cl,5.99,https://www.carrefour.be/fr/san-andrea-rosato-vino-150cl/00925378.html,https://cdn.carrefour.eu/420_00925378_T1.webp,Rosé,Other,3.5
+Avisanum Visan 75 cl,7.99,https://www.carrefour.be/fr/avisanum-visan-75-cl/04862514.html,https://cdn.carrefour.eu/420_04862514_T1.webp,Red,75cl,3.7
+Le Morre Vermentino blanc,3.99,https://www.carrefour.be/fr/le-morre-vermentino-blanc/06981189.html,https://cdn.carrefour.eu/420_06981189_main_20230626_01_PM.webp,White,Other,2.9
+Alentejo JP Ramos Reserva Rouge 75cl,6.99,https://www.carrefour.be/fr/alentejo-jp-ramos-reserva-rouge-75cl/05584384.html,https://cdn.carrefour.eu/420_05584384_M1_20210902.webp,Red,75cl,3.7
+La Cave d'Augustin Florent Côtes du rhône villages laudun  75 cl,7.09,https://www.carrefour.be/fr/la-cave-daugustin-florent-cotes-du-rhone-villages-laudun--75-cl/04404692.html,https://cdn.carrefour.eu/420_04404692_T1.webp,Red,75cl,3.6
+Côte du Rhône Tardieu-Laurent Rouge 75cl,8.99,https://www.carrefour.be/fr/cote-du-rhone-tardieu-laurent-rouge-75cl/06464266.html,https://cdn.carrefour.eu/420_06464266.webp,Red,75cl,3.7
+La Cave d'Augustin Florent Saint-Chinian 75 cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-saint-chinian-75-cl/00976941.html,https://cdn.carrefour.eu/420_00976941.webp,Red,75cl,3.3
+La Cave d'Augustin Florent Buzet 75 cl,5.99,https://www.carrefour.be/fr/la-cave-daugustin-florent-buzet-75-cl/04801181.html,https://cdn.carrefour.eu/420_04801181_T1.webp,Red,75cl,3.4
+Marqués de Cáceres Satinela Semi-Dulce Rioja 75 cl,6.99,https://www.carrefour.be/fr/marques-de-caceres-satinela-semi-dulce-rioja-75-cl/01217950.html,https://cdn.carrefour.eu/420_01217950_T1.webp,Red,75cl,3.9
+Château Plantey Cru Bourgeois Pauillac 750 ml,19.99,https://www.carrefour.be/fr/chateau-plantey-cru-bourgeois-pauillac-750-ml/04985562.html,https://cdn.carrefour.eu/420_04985562_T1.webp,Red,Other,4.6
+Malesan Bordeaux 75 cl,7.99,https://www.carrefour.be/fr/malesan-bordeaux-75-cl/01474816.html,https://cdn.carrefour.eu/420_01474816_T1.webp,Red,75cl,3.4
+Casali del Barone 150+1 Piemonte DOC Barbera Rouge 75cl,8.99,https://www.carrefour.be/fr/casali-del-barone-1501-piemonte-doc-barbera-rouge-75cl/06044931.html,https://cdn.carrefour.eu/420_06044931_M1_20210825.webp,Red,75cl,3.9
+Amabokoboko Cape White 750 ml,4.99,https://www.carrefour.be/fr/amabokoboko-cape-white-750-ml/05654077.html,https://cdn.carrefour.eu/420_05654077_T1.webp,White,Other,3.4
+La Cave d'Augustin Florent Buzet 75 cl,6.49,https://www.carrefour.be/fr/la-cave-daugustin-florent-buzet-75-cl/04808470.html,https://cdn.carrefour.eu/420_04808470_T1.webp,Red,75cl,3.4
+La Mancha Roble Rouge 75cl,6.49,https://www.carrefour.be/fr/la-mancha-roble-rouge-75cl/06844411.html,https://cdn.carrefour.eu/420_06844411_T1.webp,Red,75cl,3.0
+Latte Cinsault et grenache 75 cl,4.49,https://www.carrefour.be/fr/latte-cinsault-et-grenache-75-cl/04677907.html,https://cdn.carrefour.eu/420_04677907_T1.webp,Red,75cl,3.5
+Ventoux La Cave D'augustin Florent,4.99,https://www.carrefour.be/fr/ventoux-la-cave-daugustin-florent/06861919.html,https://cdn.carrefour.eu/420_06861919_M1_20221025.webp,Red,Other,3.3
+d.o.c.g. Amarone Della Valpolicella Rouge 75cl,19.99,https://www.carrefour.be/fr/d.o.c.g.-amarone-della-valpolicella-rouge-75cl/06998562.html,https://cdn.carrefour.eu/420_06998562_main_20240404_01_PM.webp,Red,75cl,
+Californie Green Forest Ruby Cabernet 75cl,4.99,https://www.carrefour.be/fr/californie-green-forest-ruby-cabernet-75cl/01424271.html,https://cdn.carrefour.eu/420_01424271_T1.webp,Red,75cl,3.3
+Graves Château de Chantegrive Blanc 75cl,15.99,https://www.carrefour.be/fr/graves-chateau-de-chantegrive-blanc-75cl/07112397.html,https://cdn.carrefour.eu/420_07112397_M1_20240514.webp,White,75cl,3.8
+Sparkling Rosé 0% Alcohol 75cl,6.49,https://www.carrefour.be/fr/sparkling-rose-0-alcohol-75cl/07105241.html,https://cdn.carrefour.eu/420_07105241_M1_20241112.webp,Rosé,75cl,3.6
+Jacob's Creek Classic Merlot Rouge 75cl,8.49,https://www.carrefour.be/fr/jacobs-creek-classic-merlot-rouge-75cl/04005613.html,https://cdn.carrefour.eu/420_04005613_T01.webp,Red,75cl,3.4
+Pico Andino Chardonnay 75cl,3.99,https://www.carrefour.be/fr/pico-andino-chardonnay-75cl/06887987.html,https://cdn.carrefour.eu/420_06887987_M1_20220901.webp,White,75cl,3.5
+Plaimont Madiran 6x75cl,47.94,https://www.carrefour.be/fr/plaimont-madiran-6x75cl/01231167.html,https://cdn.carrefour.eu/420_01231167_T1.webp,Red,75cl,3.5
+Baron Eugène Bordeaux Supérieur 75 cl,7.99,https://www.carrefour.be/fr/baron-eugene-bordeaux-superieur-75-cl/06844672.html,https://cdn.carrefour.eu/420_06844672_T1.webp,Red,75cl,3.5
+Sayanca Malbec Rouge 75cl,7.99,https://www.carrefour.be/fr/sayanca-malbec-rouge-75cl/06857732.html,https://cdn.carrefour.eu/420_21786954_main_avant_BP.webp,Red,75cl,3.6
+Les Grands Ducs Saint-Julien Rouge 750 ml,19.99,https://www.carrefour.be/fr/les-grands-ducs-saint-julien-rouge-750-ml/05536398.html,https://cdn.carrefour.eu/420_05536398_T1.webp,Red,Other,3.8
+African Dream Pinotage Rouge 75 cl,3.99,https://www.carrefour.be/fr/african-dream-pinotage-rouge-75-cl/07020309.html,https://cdn.carrefour.eu/420_07020309_T1.webp,Red,75cl,3.5
+Château de Tourteyron Cru Bourgeois Médoc 75cl,11.99,https://www.carrefour.be/fr/chateau-de-tourteyron-cru-bourgeois-medoc-75cl/05841798.html,https://cdn.carrefour.eu/420_05841798_T1.webp,Red,75cl,
+Tempranillo Reserva Rouge 75cl,8.99,https://www.carrefour.be/fr/tempranillo-reserva-rouge-75cl/06654140.html,https://cdn.carrefour.eu/420_06654140_T1.webp,Red,75cl,4.1
+La Botte Montepulciano d'Abruzzo 1.5 L,8.99,https://www.carrefour.be/fr/la-botte-montepulciano-dabruzzo-1.5-l/04339061.html,https://cdn.carrefour.eu/420_04339061_T1.webp,Red,Other,3.3
+Rioja Crianza Special edition 75 cl,8.49,https://www.carrefour.be/fr/rioja-crianza-special-edition-75-cl/06836040.html,https://cdn.carrefour.eu/420_06836040_M1_20250610.webp,Red,75cl,3.4
+Bordeaux Château Lavergne Blanc 750ml,3.99,https://www.carrefour.be/fr/bordeaux-chateau-lavergne-blanc-750ml/01451066.html,https://cdn.carrefour.eu/420_01451066_T1.webp,White,Other,3.3
+Château Pique-Sègue Bergerac Rouge 75cl,7.19,https://www.carrefour.be/fr/chateau-pique-segue-bergerac-rouge-75cl/00850878.html,https://cdn.carrefour.eu/420_00850878_ZST_003_10000000000224273.webp,Red,75cl,3.4
+Château Ventenac Cabardès Cuvée Carla 75cl,6.99,https://www.carrefour.be/fr/chateau-ventenac-cabardes-cuvee-carla-75cl/00889834.html,https://cdn.carrefour.eu/420_00889834_T1.webp,Red,75cl,3.5
+The Fortune Bar Glühwein 0% alc. 75cl,6.99,https://www.carrefour.be/fr/the-fortune-bar-gluhwein-0-alc.-75cl/06993626.html,https://cdn.carrefour.eu/420_06993626_05415270101237_C1N1_MPM.webp,Other,75cl,
+Sud-Ouest Saint-Mont Boiseraie 75cl,5.99,https://www.carrefour.be/fr/sud-ouest-saint-mont-boiseraie-75cl/01049742.html,https://cdn.carrefour.eu/420_01049742_T1.webp,Red,75cl,
+Alentejano Pousio Selection 75cl,6.99,https://www.carrefour.be/fr/alentejano-pousio-selection-75cl/06202128.html,https://cdn.carrefour.eu/420_06202128_T1.webp,Red,75cl,3.8
+Pays D'oc Cote des Roses Sauvignon Blanc 75cl,9.99,https://www.carrefour.be/fr/pays-doc-cote-des-roses-sauvignon-blanc-75cl/07109251.html,https://cdn.carrefour.eu/420_07109251_M1_20240514.webp,White,75cl,3.7
+Tempranillo Roble Toro Rouge 75cl,7.49,https://www.carrefour.be/fr/tempranillo-roble-toro-rouge-75cl/06200234.html,https://cdn.carrefour.eu/420_06200234_T1.webp,Red,75cl,3.8
+Ramón Bilbao Rioja Reserva Rouge 75cl,12.99,https://www.carrefour.be/fr/ram%C3%B3n-bilbao-rioja-reserva-rouge-75cl/07236336.html,https://cdn.carrefour.eu/420_07236336_M1_20250724.webp,Red,75cl,4.1
+Siglo Tempranillo Rouge 75cl,9.99,https://www.carrefour.be/fr/siglo-tempranillo-rouge-75cl/07247434.html,https://cdn.carrefour.eu/420_07247434_M1_20250605.webp,Red,75cl,3.7
+Plantaranas Macabeo Sauvignon Blanc Bio 75cl,7.99,https://www.carrefour.be/fr/plantaranas-macabeo-sauvignon-blanc-bio-75cl/07248716.html,https://cdn.carrefour.eu/420_07248716_M1_20250514.webp,White,75cl,3.5
+Talamanca Chile Carménère Rouge 75 cl,6.99,https://www.carrefour.be/fr/talamanca-chile-carmenere-rouge-75-cl/07155927.html,https://cdn.carrefour.eu/420_07155927_T1.webp,Red,75cl,3.8
+Bourgogne Mercurey A.O.C Jacques Valorge Rouge 75cl,22.99,https://www.carrefour.be/fr/bourgogne-mercurey-a.o.c-jacques-valorge-rouge-75cl/07190481.html,https://cdn.carrefour.eu/420_07190481_M1_20250514.webp,Red,75cl,3.0
+Masso Antico Negroamaro Rouge 375ml,5.99,https://www.carrefour.be/fr/masso-antico-negroamaro-rouge-375ml/07101213.html,https://cdn.carrefour.eu/420_07101213_M1_20241112.webp,Red,Other,3.9
+Rouge 75cl,9.49,https://www.carrefour.be/fr/rouge-75cl/05566757.html,https://cdn.carrefour.eu/420_05566757_T1.webp,Red,75cl,3.5
+Luxemburg Domaines Vinsmoselle Pinot Blanc 75 cl,9.99,https://www.carrefour.be/fr/luxemburg-domaines-vinsmoselle-pinot-blanc-75-cl/06074555.html,https://cdn.carrefour.eu/420_06074555_T1.webp,White,75cl,3.5
+Domaine Lalande Cabernet Sauvignon Bag in Box Rouge 3L,16.99,https://www.carrefour.be/fr/domaine-lalande-cabernet-sauvignon-bag-in-box-rouge-3l/05290482.html,https://cdn.carrefour.eu/420_05290482_T1.webp,Red,Box,3.7
+Sud-Ouest Saint-Mont Boiseraie Blanc 75cl,5.99,https://www.carrefour.be/fr/sud-ouest-saint-mont-boiseraie-blanc-75cl/01394761.html,https://cdn.carrefour.eu/420_01394761_T1.webp,White,75cl,3.4
+Grand Sud Merlot 6x1L,35.94,https://www.carrefour.be/fr/grand-sud-merlot-6x1l/04584515.html,https://cdn.carrefour.eu/420_04584515_T1.webp,Red,Other,3.1
+Afrique du Sud Stony Cape Syrah Rosé 37.5 cl,3.99,https://www.carrefour.be/fr/afrique-du-sud-stony-cape-syrah-rose-37.5-cl/05782319.html,https://cdn.carrefour.eu/420_05782319_T1.webp,Red,Other,3.9
+Bordeaux Haut-Médoc Château Verdignan Rouge 75cl,17.99,https://www.carrefour.be/fr/bordeaux-haut-medoc-chateau-verdignan-rouge-75cl/01458037.html,https://cdn.carrefour.eu/420_01458037_M1_20210902.webp,Red,75cl,
+IGPOC TENT.LALANDE SV BIB BL4X,71.96,https://www.carrefour.be/fr/igpoc-tent.lalande-sv-bib-bl4x/05289715.html,https://cdn.carrefour.eu/420_05289715_M1_20240806.webp,Other,Box,4.0
+Brut Royal Blanc 75cl,11.99,https://www.carrefour.be/fr/brut-royal-blanc-75cl/07214179.html,https://cdn.carrefour.eu/420_07214179_M19_20250217.webp,White,75cl,3.3
+Palacio de Primavera Reserva Rouge 75cl,6.99,https://www.carrefour.be/fr/palacio-de-primavera-reserva-rouge-75cl/07247459.html,https://cdn.carrefour.eu/420_07247459_M1_20250804.webp,Red,75cl,3.8
+Poggio Scudieri Barbaresco Rouge 75cl,21.99,https://www.carrefour.be/fr/poggio-scudieri-barbaresco-rouge-75cl/07190779.html,https://cdn.carrefour.eu/420_07190779_M1_20250509.webp,Red,75cl,
+Boa Noite Lisboa Vinho Rouge 75cl,6.99,https://www.carrefour.be/fr/boa-noite-lisboa-vinho-rouge-75cl/07245613.html,https://cdn.carrefour.eu/420_07245613_M1_20250514.webp,Red,75cl,3.8
+D.O Rueda Dama DEL Lago Blanc75cl,5.99,https://www.carrefour.be/fr/d.o-rueda-dama-del-lago-blanc75cl/07155949.html,https://cdn.carrefour.eu/420_07155949_M1_20241014.webp,White,75cl,3.2
+Bourgogne Louis Naudin Maranges Rouge 75cl,21.99,https://www.carrefour.be/fr/bourgogne-louis-naudin-maranges-rouge-75cl/07190453.html,https://cdn.carrefour.eu/420_07190453_M1_20250514.webp,Red,75cl,4.0
+Gérard Bertrand Terrasses Du Larzac Rouge 75cl,9.99,https://www.carrefour.be/fr/gerard-bertrand-terrasses-du-larzac-rouge-75cl/07109166.html,https://cdn.carrefour.eu/420_07109166_M1_20240514.webp,Red,75cl,3.7
+Premium Sparkling Wine - Blanc- 75cl,59.94,https://www.carrefour.be/fr/premium-sparkling-wine---blanc--75cl/07214154.html,https://cdn.carrefour.eu/420_07214154_M1_20250324.webp,White,75cl,3.4
+Garnacha Nefer Rouge 75cl,4.99,https://www.carrefour.be/fr/garnacha-nefer-rouge-75cl/07156055.html,https://cdn.carrefour.eu/420_07156055_M1_20250514.webp,Red,75cl,3.6
+Catalogne Clos del Pinell Garnacha Blanca Blanc 75cl,5.99,https://www.carrefour.be/fr/catalogne-clos-del-pinell-garnacha-blanca-blanc-75cl/07190948.html,https://cdn.carrefour.eu/420_07190948_main_20251007_01_PM.webp,White,75cl,3.0
+In Cantos Cannonau di Sardegna Rouge 75cl,6.99,https://www.carrefour.be/fr/in-cantos-cannonau-di-sardegna-rouge-75cl/06842168.html,https://cdn.carrefour.eu/420_06842168_main_20220519_01_PM.webp,Red,75cl,3.7
+Carta Sparkling Semi-Sec Blanc 75cl,9.99,https://www.carrefour.be/fr/carta-sparkling-semi-sec-blanc-75cl/07214155.html,https://cdn.carrefour.eu/420_07214155_M1_20250326.webp,White,75cl,
+Riebeiro Gran Alanis Blanc 75cl,8.99,https://www.carrefour.be/fr/riebeiro-gran-alanis-blanc-75cl/07155956.html,https://cdn.carrefour.eu/420_07155956_M1_20241015.webp,White,75cl,3.7
+Boa Noite Lisboa Vinho Rosé 75cl,6.99,https://www.carrefour.be/fr/boa-noite-lisboa-vinho-rose-75cl/07245611.html,https://cdn.carrefour.eu/420_07245611_M1_20250514.webp,Rosé,75cl,3.8
+Boa Noite Lisboa Vinho Blanc 75cl,6.99,https://www.carrefour.be/fr/boa-noite-lisboa-vinho-blanc-75cl/07245610.html,https://cdn.carrefour.eu/420_07245610_M1_20250514.webp,White,75cl,3.8
+Bourgogne Camille Villard Blanc 75cl,16.99,https://www.carrefour.be/fr/bourgogne-camille-villard-blanc-75cl/07190156.html,https://cdn.carrefour.eu/420_07190156_M1_20250514.webp,White,75cl,4.0
+Côtes du Rhône Ventoux La Ferme Julien by Perrin 75cl,5.99,https://www.carrefour.be/fr/cotes-du-rhone-ventoux-la-ferme-julien-by-perrin-75cl/05339582.html,https://cdn.carrefour.eu/420_05339582.webp,Red,75cl,3.8

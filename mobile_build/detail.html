@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Details - WineVino</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to List</a>
+            <h1>Wine Details</h1>
+        </div>
+    </header>
+
+    <main class="container detail-container">
+        <div id="loading-message" class="loading">
+            <div class="spinner"></div>
+            <p>Loading wine details...</p>
+        </div>
+
+        <div id="wine-detail-card" class="wine-detail-card" style="display: none;">
+            <div class="detail-header">
+                <div class="header-content">
+                    <h2 id="wine-name"></h2>
+                    <div class="badges">
+                        <span id="wine-type-badge" class="badge"></span>
+                    </div>
+                </div>
+                <div class="detail-actions">
+                    <a id="store-link" href="#" target="_blank" class="external-btn">
+                        View on Store <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="detail-grid">
+                <div class="detail-image-section">
+                    <img id="wine-image" src="" alt="" class="detail-image" onclick="openImageModal()"
+                        style="cursor: zoom-in;" title="Click to zoom">
+                </div>
+                <div class="detail-main">
+                    <div class="price-score-row">
+                        <div class="price-box">
+                            <span class="label">Price</span>
+                            <span id="wine-price" class="value price"></span>
+                        </div>
+                        <div class="score-box">
+                            <span class="label">Vivino Score</span>
+                            <span class="value score">
+                                <i class="fas fa-star"></i> <span id="vivino-score"></span>
+                            </span>
+                        </div>
+                        <div class="score-box personal-score-box">
+                            <span class="label">My Score</span>
+                            <div class="detail-star-rating" id="detail-star-rating">
+                                <i class="star far fa-star" data-rating="1"></i>
+                                <i class="star far fa-star" data-rating="2"></i>
+                                <i class="star far fa-star" data-rating="3"></i>
+                                <i class="star far fa-star" data-rating="4"></i>
+                                <i class="star far fa-star" data-rating="5"></i>
+                            </div>
+                            <span class="personal-score-text" id="personal-score-text">Not rated</span>
+                        </div>
+                    </div>
+
+                    <div class="description-section">
+                        <h3>My Notes</h3>
+                        <textarea id="wine-description"
+                            placeholder="Add your tasting notes or description here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="detail-pairings">
+                    <h3>Food Pairings</h3>
+                    <p class="subtitle">Select foods that go well with this wine:</p>
+
+                    <div class="pairing-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" value="Red meat">
+                            <span class="checkbox-text">Red meat</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" value="White meat">
+                            <span class="checkbox-text">White meat</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" value="Seafood">
+                            <span class="checkbox-text">Seafood</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" value="Fish">
+                            <span class="checkbox-text">Fish</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" value="Dessert">
+                            <span class="checkbox-text">Dessert</span>
+                        </label>
+                    </div>
+
+                    <button id="save-btn" class="save-btn">Save Changes</button>
+                    <div id="save-message" class="hidden">Saved!</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Image Zoom Modal -->
+    <div id="imageModal" class="image-modal" onclick="closeImageModal()">
+        <span class="modal-close">&times;</span>
+        <img class="modal-image" id="modalImage" src="" alt="">
+    </div>
+
+    <script>
+        // Get wine name from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const wineName = urlParams.get('name');
+
+        const DATA_URL = 'wines.json';
+        const CACHE_KEY = 'winevinoCachedDataV3';
+
+        // Elements
+        const loadingMessage = document.getElementById('loading-message');
+        const wineDetailCard = document.getElementById('wine-detail-card');
+        const saveBtn = document.getElementById('save-btn');
+        const message = document.getElementById('save-message');
+        const descriptionInput = document.getElementById('wine-description');
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+        // Image zoom modal functions
+        function openImageModal() {
+            document.getElementById('imageModal').style.display = 'flex';
+        }
+
+        function closeImageModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeImageModal();
+            }
+        });
+
+        // Fetch and display wine data
+        async function loadWineData() {
+            if (!wineName) {
+                loadingMessage.innerHTML = '<p class="error">No wine specified.</p>';
+                return;
+            }
+
+            try {
+                // Try to get from cache first
+                let data = [];
+                const cachedData = localStorage.getItem(CACHE_KEY);
+
+                if (cachedData) {
+                    data = JSON.parse(cachedData);
+                } else {
+                    const response = await fetch(DATA_URL);
+                    data = await response.json();
+                    // We don't cache here to keep it simple, main page handles caching
+                }
+
+                const wine = data.find(w => w.name === wineName);
+
+                if (!wine) {
+                    loadingMessage.innerHTML = '<p class="error">Wine not found.</p>';
+                    return;
+                }
+
+                // Populate UI
+                document.title = `${wine.name} - WineVino`;
+                document.getElementById('wine-name').textContent = wine.name;
+
+                const badge = document.getElementById('wine-type-badge');
+                badge.textContent = wine.type;
+                badge.className = `badge type-${wine.type.toLowerCase()}`;
+
+                document.getElementById('store-link').href = wine.url;
+                document.getElementById('store-link').title = `View on ${wine.store}`;
+
+                const img = document.getElementById('wine-image');
+                img.src = wine.image_url;
+                img.alt = wine.name;
+                document.getElementById('modalImage').src = wine.image_url;
+                document.getElementById('modalImage').alt = wine.name;
+
+                document.getElementById('wine-price').textContent = `€${wine.price}`;
+                document.getElementById('vivino-score').textContent = wine.vivino_score;
+
+                // Load local user data
+                loadLocalData();
+
+                // Show card
+                loadingMessage.style.display = 'none';
+                wineDetailCard.style.display = 'block';
+
+            } catch (error) {
+                console.error(error);
+                loadingMessage.innerHTML = `<p class="error">Error loading wine details: ${error.message}</p>`;
+            }
+        }
+
+        // Load data from localStorage
+        function loadLocalData() {
+            // Load personal score
+            const personalScores = JSON.parse(localStorage.getItem('personalScores') || '{}');
+            const score = personalScores[wineName] || 0;
+            updateStars(score);
+
+            // Load pairings and description
+            const allPairings = JSON.parse(localStorage.getItem('winePairings') || '{}');
+            const data = allPairings[wineName];
+
+            if (data) {
+                // Update description
+                if (data.description) {
+                    descriptionInput.value = data.description;
+                }
+
+                // Update checkboxes
+                if (data.pairings) {
+                    checkboxes.forEach(cb => {
+                        cb.checked = data.pairings.includes(cb.value);
+                    });
+                }
+            }
+        }
+
+        // Personal Score functionality
+        const detailStarRating = document.getElementById('detail-star-rating');
+        const personalScoreText = document.getElementById('personal-score-text');
+        const stars = detailStarRating.querySelectorAll('.star');
+
+        function updateStars(score) {
+            stars.forEach((star, idx) => {
+                if (idx < score) {
+                    star.classList.remove('far');
+                    star.classList.add('fas');
+                } else {
+                    star.classList.remove('fas');
+                    star.classList.add('far');
+                }
+            });
+
+            if (score > 0) {
+                personalScoreText.textContent = `${score}/5`;
+            } else {
+                personalScoreText.textContent = 'Not rated';
+            }
+        }
+
+        // Add click handlers to stars
+        stars.forEach(star => {
+            star.addEventListener('click', (e) => {
+                const rating = parseInt(star.dataset.rating);
+
+                // Save to localStorage
+                const scores = JSON.parse(localStorage.getItem('personalScores') || '{}');
+                scores[wineName] = rating;
+                localStorage.setItem('personalScores', JSON.stringify(scores));
+
+                // Update UI
+                updateStars(rating);
+            });
+
+            // Hover effect
+            star.addEventListener('mouseenter', () => {
+                const rating = parseInt(star.dataset.rating);
+                stars.forEach((s, idx) => {
+                    if (idx < rating) {
+                        s.style.color = '#FFD700';
+                    }
+                });
+            });
+        });
+
+        detailStarRating.addEventListener('mouseleave', () => {
+            stars.forEach(s => {
+                s.style.color = '';
+            });
+        });
+
+        saveBtn.addEventListener('click', () => {
+            const selectedPairings = Array.from(checkboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            const description = descriptionInput.value;
+
+            saveBtn.disabled = true;
+            saveBtn.textContent = 'Saving...';
+
+            // Save to localStorage
+            try {
+                const allPairings = JSON.parse(localStorage.getItem('winePairings') || '{}');
+                allPairings[wineName] = {
+                    pairings: selectedPairings,
+                    description: description
+                };
+                localStorage.setItem('winePairings', JSON.stringify(allPairings));
+
+                // Success feedback
+                saveBtn.disabled = false;
+                saveBtn.textContent = 'Save Changes';
+                message.classList.remove('hidden');
+                setTimeout(() => message.classList.add('hidden'), 2000);
+            } catch (err) {
+                console.error(err);
+                saveBtn.disabled = false;
+                saveBtn.textContent = 'Error Saving';
+            }
+        });
+
+        // Initialize
+        loadWineData();
+    </script>
+</body>
+
+</html>
