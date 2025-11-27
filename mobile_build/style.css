@@ -329,6 +329,50 @@ h1 {
     font-weight: 600;
 }
 
+/* Store Badges */
+.store-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 1px solid;
+}
+
+.store-carrefour {
+    background-color: #E3F2FD;
+    color: #1565C0;
+    border-color: #1565C0;
+}
+
+.store-albert-heijn {
+    background-color: #FFF3E0;
+    color: #E65100;
+    border-color: #E65100;
+}
+
+.store-winevino-team {
+    background-color: #F3E5F5;
+    color: #6A1B9A;
+    border-color: #6A1B9A;
+}
+
+.personal-score-badge {
+    background-color: #FFF9C4;
+    color: #F57F17;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 1px solid #F57F17;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.personal-score-badge i {
+    font-size: 0.7rem;
+}
+
 .vivino-score {
     display: flex;
     align-items: center;

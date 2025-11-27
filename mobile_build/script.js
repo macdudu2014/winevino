@@ -326,6 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="wine-header">
                         <div class="wine-meta">
                             <span class="wine-type-badge type-${wine.type.toLowerCase()}">${wine.type}</span>
+                            <span class="store-badge store-${wine.store.toLowerCase().replace(/\s+/g, '-')}">${wine.store}</span>
                             ${myScore > 0 ? `<span class="personal-score-badge"><i class="fas fa-star"></i> ${myScore}/5</span>` : ''}
                         </div>
                         <a href="${wine.url}" target="_blank" class="external-link-btn" onclick="event.stopPropagation();" title="View on ${wine.store}">
