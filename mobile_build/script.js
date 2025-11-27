@@ -14,8 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentSortLabel = document.getElementById('current-sort-label');
 
     // Configuration
-    // For standalone app, point to local file
-    const DATA_URL = 'wines.json';
+    // Fetch wine data from GitHub Pages (allows remote updates without app rebuild)
+    // Fallback to local file if offline
+    const DATA_URL = 'https://macdudu2014.github.io/winevino/mobile_build/wines.json';
     const CACHE_KEY = 'winevinoCachedDataV3'; // Changed to force cache refresh
     const CACHE_TIMESTAMP_KEY = 'winevinoCacheTimestampV3'; // Changed to force cache refresh
     const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
