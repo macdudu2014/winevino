@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const sortOptions = document.querySelectorAll('.sort-option');
     const currentSortLabel = document.getElementById('current-sort-label');
 
+    // Scroll to Top Button
+    const scrollToTopBtn = document.getElementById('scroll-to-top');
+
     // Configuration
     // Fetch wine data from GitHub Pages (allows remote updates without app rebuild)
     // Fallback to local file if offline
@@ -353,4 +356,20 @@ document.addEventListener('DOMContentLoaded', () => {
             wineList.appendChild(card);
         });
     }
+
+    // Scroll to Top Button Logic
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            scrollToTopBtn.classList.add('visible');
+        } else {
+            scrollToTopBtn.classList.remove('visible');
+        }
+    });
+
+    scrollToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
 });
