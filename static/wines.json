@@ -844,7 +844,7 @@
     "price": 15.99,
     "url": "https://www.carrefour.be/fr/spanje-bag-in-box-mucho-mas-3l/06491276.html",
     "image_url": "https://cdn.carrefour.eu/420_06491276_M1_20240228.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "Box",
     "vivino_score": 3.8,
     "store": "Carrefour"
@@ -964,7 +964,7 @@
     "price": 4.99,
     "url": "https://www.carrefour.be/fr/la-croix-carillan-bourgogne-grand-ordinaire-75-cl/04939827.html",
     "image_url": "https://cdn.carrefour.eu/420_04939827_T1.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "75cl",
     "vivino_score": 2.9,
     "store": "Carrefour"
@@ -1114,7 +1114,7 @@
     "price": 5.99,
     "url": "https://www.carrefour.be/fr/saumur-grande-reserve-75-cl/04939945.html",
     "image_url": "https://cdn.carrefour.eu/420_04939945_T1.webp",
-    "type": "Other",
+    "type": "White",
     "size": "75cl",
     "vivino_score": 3.8,
     "store": "Carrefour"
@@ -1164,7 +1164,7 @@
     "price": 6.99,
     "url": "https://www.carrefour.be/fr/loire-muscadet-sevre-et-maine-la-cave-daugustin-florent-75cl/04968013.html",
     "image_url": "https://cdn.carrefour.eu/420_04968013_T1.webp",
-    "type": "Other",
+    "type": "White",
     "size": "75cl",
     "vivino_score": 3.4,
     "store": "Carrefour"
@@ -1394,7 +1394,7 @@
     "price": 4.99,
     "url": "https://www.carrefour.be/fr/la-cave-daugustin-florent-languedoc-75-cl/04939850.html",
     "image_url": "https://cdn.carrefour.eu/420_04939850_T1.webp",
-    "type": "Other",
+    "type": "Rosé",
     "size": "75cl",
     "vivino_score": 3.4,
     "store": "Carrefour"
@@ -1494,7 +1494,7 @@
     "price": 4.59,
     "url": "https://www.carrefour.be/fr/vin-de-messe-doux-75-cl/00163310.html",
     "image_url": "https://cdn.carrefour.eu/420_00163310_T1.webp",
-    "type": "Other",
+    "type": "White",
     "size": "75cl",
     "vivino_score": 3.9,
     "store": "Carrefour"
@@ -1564,7 +1564,7 @@
     "price": 2.99,
     "url": "https://www.carrefour.be/fr/aude/06785381.html",
     "image_url": "https://cdn.carrefour.eu/420_06785381_M1_20220110.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "Other",
     "vivino_score": 3.5,
     "store": "Carrefour"
@@ -1744,7 +1744,7 @@
     "price": 2.99,
     "url": "https://www.carrefour.be/fr/christkindles-gluhwein-1l/01490752.html",
     "image_url": "https://cdn.carrefour.eu/420_01490752_M1_20231130.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "Other",
     "vivino_score": 3.8,
     "store": "Carrefour"
@@ -2024,7 +2024,7 @@
     "price": 9.99,
     "url": "https://www.carrefour.be/fr/cote-du-rhone-la-resistance-bio-75cl/05910841.html",
     "image_url": "https://cdn.carrefour.eu/420_05910841_T1.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "75cl",
     "vivino_score": 3.8,
     "store": "Carrefour"
@@ -2204,7 +2204,7 @@
     "price": 20.99,
     "url": "https://www.carrefour.be/fr/vallee-du-rhone-chateauneuf-du-pape-castel-75cl/05889227.html",
     "image_url": "https://cdn.carrefour.eu/420_05889227_M1_20230606.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "75cl",
     "vivino_score": 4.1,
     "store": "Carrefour"
@@ -2324,7 +2324,7 @@
     "price": 13.99,
     "url": "https://www.carrefour.be/fr/bourgogne-cote-chalonnaise-mont-avril/06887640.html",
     "image_url": "https://cdn.carrefour.eu/420_06887640_M1_20220822.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "Other",
     "vivino_score": 3.6,
     "store": "Carrefour"
@@ -5084,7 +5084,7 @@
     "price": 6.99,
     "url": "https://www.carrefour.be/fr/the-fortune-bar-gluhwein-0-alc.-75cl/06993626.html",
     "image_url": "https://cdn.carrefour.eu/420_06993626_05415270101237_C1N1_MPM.webp",
-    "type": "Other",
+    "type": "Red",
     "size": "75cl",
     "vivino_score": 0,
     "store": "Carrefour"
@@ -5264,7 +5264,7 @@
     "price": 71.96,
     "url": "https://www.carrefour.be/fr/igpoc-tent.lalande-sv-bib-bl4x/05289715.html",
     "image_url": "https://cdn.carrefour.eu/420_05289715_M1_20240806.webp",
-    "type": "Other",
+    "type": "White",
     "size": "Box",
     "vivino_score": 4.0,
     "store": "Carrefour"
@@ -7424,7 +7424,7 @@
     "price": 2.59,
     "url": "https://www.ah.be/producten/product/wi166391/ah-gluhwein",
     "image_url": "https://static.ah.nl/dam/product/AHI_43545239393535333739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "type": "Other",
+    "type": "Red",
     "size": "Other",
     "vivino_score": 3.6,
     "store": "Albert Heijn"
