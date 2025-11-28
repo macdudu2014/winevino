@@ -1158,6 +1158,33 @@ h1 {
     font-size: 1.1rem;
 }
 
+/* Load More Button */
+.load-more-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 16px 32px;
+    background: var(--burgundy);
+    color: var(--text-light);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.load-more-btn:hover {
+    background: #8B3A44;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(114, 47, 55, 0.3);
+}
+
+.load-more-btn:active {
+    transform: translateY(0);
+}
+
 /* Scroll to Top Button */
 .scroll-to-top {
     position: fixed;

@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentPairing = null;
     let currentSort = 'score'; // Default sort
 
+    // Pagination for performance
+    let currentPage = 1;
+    const WINES_PER_PAGE = 50; // Load 50 wines at a time
+    let isLoading = false;
+
+
     // Fetch wines on load
     fetchWines();
 
@@ -284,18 +290,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function renderWines(wines) {
-        wineList.innerHTML = '';
+    function renderWines(wines, append = false) {
+        if (!append) {
+            wineList.innerHTML = '';
+            currentPage = 1;
+        }
 
-        if (wines.length === 0) {
+        if (wines.length === 0 && !append) {
             wineList.innerHTML = '<div class="no-results"><p>No wines found matching your criteria.</p></div>';
             return;
         }
 
+        // Calculate which wines to show
+        const startIndex = (currentPage - 1) * WINES_PER_PAGE;
+        const endIndex = startIndex + WINES_PER_PAGE;
+        const winesToShow = wines.slice(startIndex, endIndex);
+
         // Get personal scores
         const personalScores = JSON.parse(localStorage.getItem('personalScores') || '{}');
 
-        wines.forEach(wine => {
+        winesToShow.forEach(wine => {
             const card = document.createElement('div');
             card.className = 'wine-card';
 
@@ -355,6 +369,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
             wineList.appendChild(card);
         });
+
+        // Show "Load More" button if there are more wines
+        const loadMoreBtn = document.getElementById('load-more-btn');
+        if (endIndex < wines.length) {
+            if (!loadMoreBtn) {
+                const btn = document.createElement('button');
+                btn.id = 'load-more-btn';
+                btn.className = 'load-more-btn';
+                btn.textContent = 'Load More Wines';
+                btn.addEventListener('click', () => {
+                    currentPage++;
+                    renderWines(wines, true);
+                });
+                wineList.appendChild(btn);
+            }
+        } else if (loadMoreBtn) {
+            loadMoreBtn.remove();
+        }
     }
 
     // Scroll to Top Button Logic
