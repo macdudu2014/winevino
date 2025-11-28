@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentPage = 1;
     const WINES_PER_PAGE = 50; // Load 50 wines at a time
     let isLoading = false;
+    let currentFilteredWines = []; // Store current filtered list for infinite scroll
 
 
     // Fetch wines on load
@@ -223,6 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
             );
         }
 
+        currentFilteredWines = filteredWines;
+        currentPage = 1; // Reset to page 1 when filters change
         renderWines(filteredWines);
     }
 
@@ -369,32 +372,94 @@ document.addEventListener('DOMContentLoaded', () => {
 
             wineList.appendChild(card);
         });
-
-        // Show "Load More" button if there are more wines
-        const loadMoreBtn = document.getElementById('load-more-btn');
-        if (endIndex < wines.length) {
-            if (!loadMoreBtn) {
-                const btn = document.createElement('button');
-                btn.id = 'load-more-btn';
-                btn.className = 'load-more-btn';
-                btn.textContent = 'Load More Wines';
-                btn.addEventListener('click', () => {
-                    currentPage++;
-                    renderWines(wines, true);
-                });
-                wineList.appendChild(btn);
-            }
-        } else if (loadMoreBtn) {
-            loadMoreBtn.remove();
-        }
     }
 
-    // Scroll to Top Button Logic
+    // Scroll to Top Button Logic + Infinite Scroll
     window.addEventListener('scroll', () => {
+        // Scroll to top button
         if (window.pageYOffset > 300) {
             scrollToTopBtn.classList.add('visible');
         } else {
             scrollToTopBtn.classList.remove('visible');
+        }
+
+        // Infinite scroll - load more wines when near bottom
+        if (isLoading) return;
+
+        const scrollPosition = window.innerHeight + window.pageYOffset;
+        const threshold = document.documentElement.scrollHeight - 500; // 500px before bottom
+
+        if (scrollPosition >= threshold) {
+            const totalWines = currentFilteredWines.length;
+            const loadedWines = currentPage * WINES_PER_PAGE;
+
+            if (loadedWines < totalWines) {
+                isLoading = true;
+                currentPage++;
+
+                // Render next page
+                const startIndex = (currentPage - 1) * WINES_PER_PAGE;
+                const endIndex = startIndex + WINES_PER_PAGE;
+                const nextWines = currentFilteredWines.slice(startIndex, endIndex);
+
+                // Get personal scores
+                const personalScores = JSON.parse(localStorage.getItem('personalScores') || '{}');
+
+                nextWines.forEach(wine => {
+                    const card = document.createElement('div');
+                    card.className = 'wine-card';
+
+                    const myScore = personalScores[wine.name] || 0;
+
+                    let pairingsHtml = '';
+                    if (wine.pairings && wine.pairings.length > 0) {
+                        const emojis = {
+                            'Red meat': '🥩',
+                            'White meat': '🍗',
+                            'Seafood': '🦞',
+                            'Fish': '🐟',
+                            'Dessert': '🍰'
+                        };
+                        pairingsHtml = `<div class="pairing-tags">
+                            ${wine.pairings.map(p => `<span class="pairing-tag" title="${p}">${emojis[p] || ''}</span>`).join('')}
+                        </div>`;
+                    }
+
+                    card.innerHTML = `
+                        <div class="wine-image">
+                            <img src="${wine.image_url}" alt="${wine.name}" loading="lazy">
+                        </div>
+                        <div class="wine-info">
+                            <div class="wine-header">
+                                <div class="wine-meta">
+                                    <span class="wine-type-badge type-${wine.type.toLowerCase()}">${wine.type}</span>
+                                    <span class="store-badge store-${wine.store.toLowerCase().replace(/\s+/g, '-')}">${wine.store}</span>
+                                    ${myScore > 0 ? `<span class="personal-score-badge"><i class="fas fa-star"></i> ${myScore}/5</span>` : ''}
+                                </div>
+                                <a href="${wine.url}" target="_blank" class="external-link-btn" onclick="event.stopPropagation();" title="View on ${wine.store}">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                            <div class="wine-meta">
+                                <span class="vivino-score"><i class="fas fa-star"></i> ${wine.vivino_score}</span>
+                                ${pairingsHtml}
+                            </div>
+                            <h3>${wine.name}</h3>
+                            <div class="wine-footer">
+                                <span class="wine-price">€${wine.price}</span>
+                            </div>
+                        </div>
+                    `;
+
+                    card.addEventListener('click', (e) => {
+                        window.location.href = `detail.html?name=${encodeURIComponent(wine.name)}`;
+                    });
+
+                    wineList.appendChild(card);
+                });
+
+                isLoading = false;
+            }
         }
     });
 
